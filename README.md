@@ -35,6 +35,7 @@ AYVINDSC--IACGACKPECPVNIIQGS--IYAIDADSCIDCGSCASVCPVGAPNPED-----------------
 - Line 4: Replace 5fd1 to 4CXP, change 1 and 106 to initial and final residue number, respectively.
   Change A and A to initial and final chain ID. Other fields may be ignored. Don't manipulate with colons!
 - Line 5 and 6: Replace the sequence to sequence of 4CXP FROM THE ALIGNMENT (WITH ALL GAPS!). Add star at the end.
+  You can add more lines.
 - Line 7: Leave empty.
 - Line 8 and so for: make corresponding changes for the model sequence. Number 54 may be replaced by `@`
   (it is calculated automatically).
