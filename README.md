@@ -21,7 +21,10 @@ and make necessary changes.
 ```
 python model-default.py
 ```
-In case of errors make necessary corrections.
+In case of errors make necessary corrections. Download the resulting file by scp (command in PC console), e.g.:
+```
+pscp.exe root@IP_address:/root/homolmod4structbioinf/basedon4CXP/model.B99999.pdb .
+```
 
 
 
