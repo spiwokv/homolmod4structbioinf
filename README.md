@@ -11,7 +11,17 @@ pretend that it has not been solved. Instead, we will predict it on the basis of
 git clone https://github.com/spiwokv/homolmod4structbioinf.git
 ```
 This will create a directory `homolmod4structbioinf`. Go to this directory. It contains two subdirectories, `basedon4CXP`
-and `basedon1AK0 `. Let us start with the easier one (`basedon4CXP`).
+and `basedon1AK0 `. Let us start with the easier one (`basedon4CXP`) and follow with the more advanced one (`basedon1AK0`).
 
-2. Go to the directory and edit 
+2. Make a binary sequence alignment of the tomato nuclease (`Q0KFV0 `) and the template. For `4CXP ` you can use BLAST.
+For `1AK0` use PHYRE2. Go to the directory and edit sequence alignment in `alignment.ali`. Then edit `model-default.py`
+and make necessary changes.
+
+3. Run modeller by:
+```
+python model-default.py
+```
+In case of errors make necessary corrections.
+
+
 
