@@ -8,6 +8,7 @@ pretend that it has not been solved. Instead, we will predict it on the basis of
 
 1. Clone this repository by typing:
 ```
-
+git clone https://github.com/spiwokv/homolmod4structbioinf.git
 ```
+
 
