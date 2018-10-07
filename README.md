@@ -13,9 +13,19 @@ git clone https://github.com/spiwokv/homolmod4structbioinf.git
 This will create a directory `homolmod4structbioinf`. Go to this directory. It contains two subdirectories, `basedon4CXP`
 and `basedon1AK0 `. Let us start with the easier one (`basedon4CXP`) and follow with the more advanced one (`basedon1AK0`).
 
-2. Make a binary sequence alignment of the tomato nuclease (`Q0KFV0 `) and the template. For `4CXP ` you can use BLAST.
-For `1AK0` use PHYRE2. Go to the directory and edit sequence alignment in `alignment.ali`. The alignment must strictly
-follow the required format:
+2. Make a binary sequence alignment of the tomato nuclease and the template.
+```
+>tbn1
+WSKEGHVMTCRIAQGLLNDEAAHAVKMLLPEYVNGDLSALCVWPDQVRHW
+YKYKWTSPLHFIDTPDKACNFDYERDCHDQHGVKDMCVAGAIQNFTTQLS
+HYREGTSDRRYNMTEALLFLSHFMGDIHQPMHVGFTSDAGGNSIDLRWFR
+HKSNLHHVWDREIILTAAKDYYAKDINLLEEDIEGNFTDGIWSDDLASWR
+ECGNVFSCVNKFATESINIACKWGYKGVEAGETLSDDYFNSRLPIVMKRV
+AQGGIRLAMLLNNVFGASQQEDSVVAT
+```
+
+For `4CXP ` you can use BLAST. For `1AK0` use PHYRE2. Go to the directory and edit sequence alignment in `alignment.ali`.
+The alignment must strictly follow the required format:
 ```
 C; A sample alignment in the PIR format; used in tutorial
 
