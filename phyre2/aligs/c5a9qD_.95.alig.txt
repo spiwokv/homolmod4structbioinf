@@ -1,0 +1,14 @@
+95 c5a9qD_ Probab=3.21    E-value=5.2e+02  Score=8.88  Aligned_columns=33  Identities=18%
+
+Q ss_pred             HHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHH
+Q ss_conf             8999999999996245774410568999999988640
+Q tbn1_____        88 VAGAIQNFTTQLSHYREGTSDRRYNMTEALLFLSHFM  124 (277)
+Q Consensus        88 v~~ai~~~~~~L~~~~~~~~~~~~~~a~al~~LvHlv  124 (277)
+                      +...+..+...+.+........    ...|||+.|++
+T Consensus       333 il~~~~~l~~~~~~~l~~~~~~----~~~LRf~aHL~  365 (660)
+T c5a9qD_         333 ILGDIDGLMDEFSKWLSRNNLP----GHLLRFMTHLI  365 (660)
+T ss_dssp             HHSCCHHHHHHHHHHCCCCSSC----HHHHHHHHHHH
+T ss_pred             HHCCHHHHHHHHHHHHCCCCCC----HHHHHHHHHHH
+T ss_conf             7374789999999741124787----78799999999
+
+

@@ -1,0 +1,14 @@
+69 c3icfB_ Probab=3.77    E-value=3.1e+02  Score=10.18  Aligned_columns=8  Identities=38%
+
+Q ss_pred             HHHHCCCC
+Q ss_conf             86405234
+Q tbn1_____       121 SHFMGDIH  128 (277)
+Q Consensus       121 vHlvGDiH  128 (277)
+                      +..|||+|
+T Consensus        55 v~vvGDiH   62 (315)
+T c3icfB_          55 ISVCGDTH   62 (315)
+T ss_dssp             EEEECCCT
+T ss_pred             EEEEECCC
+T ss_conf             89990587
+
+

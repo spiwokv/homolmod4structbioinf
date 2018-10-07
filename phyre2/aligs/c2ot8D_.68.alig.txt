@@ -1,0 +1,13 @@
+68 c2ot8D_ Probab=3.77    E-value=4.3e+02  Score=9.37  Aligned_columns=6  Identities=50%
+
+Q ss_pred             CCCCEE
+Q ss_conf             888459
+Q tbn1_____       139 AGGNSI  144 (277)
+Q Consensus       139 ~GGN~i  144 (277)
+                      ||||.+
+T Consensus         7 rggnrf   12 (26)
+T c2ot8D_           7 RGGNRF   12 (26)
+T ss_pred             HCCCCC
+T ss_conf             256403
+
+

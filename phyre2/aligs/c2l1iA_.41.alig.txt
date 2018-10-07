@@ -1,0 +1,14 @@
+41 c2l1iA_ Probab=5.74    E-value=2.6e+02  Score=10.66  Aligned_columns=18  Identities=17%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH
+Q ss_conf             999999999999999999
+Q tbn1_____       240 NSRLPIVMKRVAQGGIRL  257 (277)
+Q Consensus       240 ~~~~~v~~~ql~~AG~RL  257 (277)
+                      ...+..++.||.++|+||
+T Consensus       105 ~~~~~~v~~~l~~~~l~L  122 (122)
+T c2l1iA_         105 EENRKAVSDQLKKHGFKL  122 (122)
+T ss_dssp             HHHHHHHHHHHHHHCCCC
+T ss_pred             HHHHHHHHHHHHHCCCCC
+T ss_conf             889999999998289779
+
+

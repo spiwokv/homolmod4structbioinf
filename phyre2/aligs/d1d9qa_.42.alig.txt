@@ -1,0 +1,14 @@
+42 d1d9qa_ Probab=5.70    E-value=55  Score=14.48  Aligned_columns=36  Identities=11%
+
+Q ss_pred             HHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHCCCCCCC
+Q ss_conf             999999999962457744105689999999886405234752
+Q tbn1_____        90 GAIQNFTTQLSHYREGTSDRRYNMTEALLFLSHFMGDIHQPM  131 (277)
+Q Consensus        90 ~ai~~~~~~L~~~~~~~~~~~~~~a~al~~LvHlvGDiHQPL  131 (277)
+                      ..++.+...++. ......+     +.+||+.-+|+|+||=|
+T Consensus       212 ~~~~~yi~~~~~-~g~~~~~-----~~~Ry~gslVaD~hr~L  247 (323)
+T d1d9qa_         212 ENLKKYIDDLKE-PGPSGKP-----YSARYIGSLVGDFHRTL  247 (323)
+T ss_dssp             HHHHHHHHHHTS-CCSSSCC-----CEECCCSCHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH-CCCCCCC-----CCEEEEEHHHHHHHHHH
+T ss_conf             899999999860-5866677-----40016511279789987
+
+

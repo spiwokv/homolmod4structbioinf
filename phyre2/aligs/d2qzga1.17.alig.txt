@@ -1,0 +1,14 @@
+17 d2qzga1 Probab=9.64    E-value=1.8e+02  Score=11.52  Aligned_columns=50  Identities=18%
+
+Q ss_pred             CCCCCCCHHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHCCCCCCCCC
+Q ss_conf             68777618999999999996245774410568999999988640523475213
+Q tbn1_____        81 HGVKDMCVAGAIQNFTTQLSHYREGTSDRRYNMTEALLFLSHFMGDIHQPMHV  133 (277)
+Q Consensus        81 ~~~~~~~v~~ai~~~~~~L~~~~~~~~~~~~~~a~al~~LvHlvGDiHQPLH~  133 (277)
+                      +.....++=.+.......|.+...+...|.   +-|+..|=-+..|...|+|+
+T Consensus        23 D~svPRNIRraa~ea~~~L~ne~~~~~vRa---ataIs~LdeisnDpNmP~h~   72 (88)
+T d2qzga1          23 DTTVPRNIRAAADNAKNALHNEEQELIVRS---ATAIQYLDDISEDPNXPIHT   72 (88)
+T ss_dssp             CTTSCHHHHHHHHHHHHHTTCTTSCHHHHH---HHHHHHHHHHTTCTTCCHHH
+T ss_pred             CCCCCHHHHHHHHHHHHHHHCCCCCHHHHH---HHHHHHHHHHHHCCCCCHHH
+T ss_conf             577656999999999999852554513568---88999999865178887378
+
+

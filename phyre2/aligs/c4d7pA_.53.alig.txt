@@ -1,0 +1,14 @@
+53 c4d7pA_ Probab=4.71    E-value=1.6e+02  Score=11.80  Aligned_columns=10  Identities=40%
+
+Q ss_pred             HHHHHHHHHH
+Q ss_conf             0688642022
+Q tbn1_____       154 NLHHVWDREI  163 (277)
+Q Consensus       154 nLH~~WDs~l  163 (277)
+                      |||-+|.+.+
+T Consensus        85 NlHGLW~~e~   94 (96)
+T c4d7pA_          85 NLHGCWENYM   94 (96)
+T ss_dssp             TTTEEEEEEE
+T ss_pred             ECCCCEEEEE
+T ss_conf             0365123137
+
+

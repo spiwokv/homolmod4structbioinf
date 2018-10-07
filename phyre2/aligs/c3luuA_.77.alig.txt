@@ -1,0 +1,14 @@
+77 c3luuA_ Probab=3.57    E-value=4.6e+02  Score=9.20  Aligned_columns=22  Identities=18%
+
+Q ss_pred             CCCCCEEEEEE-CCCCCHHHHHH
+Q ss_conf             78884599850-89877068864
+Q tbn1_____       138 DAGGNSIDLRW-FRHKSNLHHVW  159 (277)
+Q Consensus       138 D~GGN~i~v~~-~~~~~nLH~~W  159 (277)
+                      +++|+.+.|.| +|..+.++..|
+T Consensus        13 ~~~~~~L~I~W~DG~~~~~~~~~   35 (89)
+T c3luuA_          13 LXISRVXEVDWADGHTSRLTFEH   35 (89)
+T ss_dssp             ETTTTEEEEEETTSCEEEEEHHH
+T ss_pred             CCCCCEEEEEECCCCEEEECHHH
+T ss_conf             05887899997799289843999
+
+

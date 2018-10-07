@@ -1,0 +1,1562 @@
+<html><head><title>Phyre 2 Results for tbn1_____</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>function toggleshow(name)
+{
+     var test=document.getElementById(name);
+     if (test.innerHTML == "[Hide]")
+       {
+         test.innerHTML = "[Show]";
+       }
+     else
+       {
+         test.innerHTML = "[Hide]";
+     }
+   }
+</script>
+<script>jQuery(document).ready(function(){ 
+jQuery("#renew").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/get_renewdate.cgi?jobid=888c645d580a078d");
+jQuery("#flipss").click(function(){  jQuery("#secondaryStructure").slideToggle("slow"); toggleshow("sstoggle");  });
+jQuery("#flipda").click(function(){  jQuery("#domainAnalysis").slideToggle("slow"); toggleshow("domtoggle"); });
+jQuery("#flipdetailed").click(function(){  jQuery("#detailed").slideToggle("slow"); toggleshow("detailtoggle"); });
+jQuery("#c5fugI_\\.16").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c5fugI_.16");
+jQuery("#c3d0wD_\\.14").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c3d0wD_.14");
+jQuery("#c1gygA_\\.9").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c1gygA_.9");
+jQuery("#d2qzga1\\.17").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=d2qzga1.17");
+jQuery("#d1ca1a1\\.10").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=d1ca1a1.10");
+jQuery("#d1ah7a_\\.5").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=d1ah7a_.5");
+jQuery("#c2g8gA_\\.19").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c2g8gA_.19");
+jQuery("#d1olpa1\\.7").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=d1olpa1.7");
+jQuery("#d1ak0a_\\.3").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=d1ak0a_.3");
+jQuery("#c2rhsB_\\.13").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c2rhsB_.13");
+jQuery("#c3sngA_\\.1").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c3sngA_.1");
+jQuery("#c5fbfA_\\.4").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c5fbfA_.4");
+jQuery("#c1fpvA_\\.15").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c1fpvA_.15");
+jQuery("#c1olpB_\\.8").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c1olpB_.8");
+jQuery("#c3w52A_\\.2").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c3w52A_.2");
+jQuery("#c2gq1A_\\.12").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c2gq1A_.12");
+jQuery("#c4xpmA_\\.11").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c4xpmA_.11");
+jQuery("#c4p71B_\\.20").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c4p71B_.20");
+jQuery("#c2eouA_\\.18").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=c2eouA_.18");
+jQuery("#d1khoa1\\.6").load("http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/ajax-inv-check.cgi?jobid=888c645d580a078d&model=d1khoa1.6");
+});</script>
+<style id="style1" type="text/css">      .notIpad{display:inline;}    </style>
+<link type="text/css" rel="stylesheet" href="css/main.css">
+<script type="text/javascript"
+src="http://www.sbg.bio.ic.ac.uk/phyre2/html/jmol/jsmol/JSmol.min.js"></script>
+<script type="text/javascript">
+
+var jmolApplet0 = null;
+
+var JSInfo = {
+  addSelectionOptions: false,
+  color: "#000000",
+  debug: false,
+  deferApplet: false,
+  memoryLimit: 512,            // Java only
+  j2sPath: "http://www.sbg.bio.ic.ac.uk/phyre2/html/jmol/jsmol/j2s",
+  // HTML5 only
+  memoryLimit: 512,            // Java only
+  readyFunction: null,
+  script: null,
+  disableInitialConsole: true,
+  disableJ2SLoadMonitor: false,
+  src: null,
+  use: "HTML5",  
+  width: 400,
+  height: 400
+}; 
+
+Jmol.setDocument(0);
+Jmol.getApplet("jmolApplet0", JSInfo)
+
+function init_jmol(){
+    var jmol_div = document.getElementById('jmol');
+    if(jmol_div.innerHTML == ""){
+        jmol_div.innerHTML = Jmol.getAppletHtml(jmolApplet0);
+        //eval the script added by jsmol to kickstart it.
+        eval(jmol_div.getElementsByTagName("script")[0].innerHTML);
+        Jmol.script(jmolApplet0, "load final.casp.pdb; select all; cpk off; wireframe off; cartoon on; color group; set antialiasDisplay ON");  
+
+    }
+}
+
+</script>
+
+<link rel="stylesheet" href="http://www.sbg.bio.ic.ac.uk/phyre2/html/engine/css/videolightbox.css" type="text/css">
+<style type="text/css">#videogallery a#videolb{display:none}</style>
+<link rel="stylesheet" type="text/css" href="http://www.sbg.bio.ic.ac.uk/phyre2/html/engine/css/overlay-minimal.css">
+<script src="http://www.sbg.bio.ic.ac.uk/phyre2/html/engine/js/jquery.tools.min.js" type="text/javascript"></script>
+<script src="http://www.sbg.bio.ic.ac.uk/phyre2/html/engine/js/swfobject.js" type="text/javascript"></script>
+<!-- make all links with the 'rel' attribute open overlays -->
+<script src="http://www.sbg.bio.ic.ac.uk/phyre2/html/engine/js/videolightbox.js" type="text/javascript"></script>
+<script type="text/javascript">
+  function onYouTubePlayerReady(playerId) { ytplayer = document.getElementById("video_overlay");ytplayer.setVolume(100);}</script>
+<script type="text/javascript" src="css/skinnytip.js"></script>
+<!-- SkinnyTip (c) Elliott Brueggeman --></script>
+<script language ="JavaScript">function openwin(url){msg=open(url,"MsaView","height=600,resizable=yes,scrollbars=yes,toolbar=no,directories=no,menubar=yes"); msg.focus();}</script>
+<script language="JavaScript">  function expand(param){param.style.display=(param.style.display=="none")?"":"none";}</script>
+<script language="javascript" type="text/javascript" src="http://www.sbg.bio.ic.ac.uk/phyre2/html/mootooltip/script/mootools-1.2.1-core.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.sbg.bio.ic.ac.uk/phyre2/html/mootooltip/script/mootools-1.2-more.js"></script>
+<script language="javascript" type="text/javascript" src="http://www.sbg.bio.ic.ac.uk/phyre2/html/mootooltip/script/MooTooltips.js"></script>
+<script language="javascript" type="text/javascript">
+	window.addEvent('load', function(){
+		new MooTooltips({
+			hovered:'.tipper',		// the element that when hovered shows the tip
+
+			ToolTipClass:'ToolTips',	// tooltip display class
+			toolTipPosition:-1, // -1 top; 1: bottom - set this as a default position value if none is set on the element
+			sticky:false,		// remove tooltip if closed
+			fromTop: 0,		// distance from mouse or object
+			fromLeft: -55,	// distance from left
+			duration: 300,		// fade effect transition duration
+			fadeDistance: 20    // the distance the tooltip starts the morph
+		});		
+	});
+
+	 var isMouseOver = false;
+	 function selectBox(id){
+	 if(!isMouseOver){
+	 if(document.getElementById(id).checked){
+	 document.getElementById(id).checked = false;
+	 }
+	 else{
+	 document.getElementById(id).checked = true;
+	 }
+	 }
+	 }
+	 function mouseOver(){
+	 isMouseOver = true;
+	 }
+	 function mouseOut(){
+	 isMouseOver = false;
+	 }
+
+
+</script>
+<script language="JavaScript">  window.addEvent('domready',function() {
+new SmoothScroll({ duration:700 }, window); });</script>
+</head>
+<div id="tiplayer" style="position:absolute; visibility:hidden; z-index:10000;"></div>
+<body><div id="ipadDiv" style="margin-left:0px;">
+<form ENCTYPE="multipart/form-data" METHOD="POST" ACTION="http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/jobmonitor.cgi"><table class="midshade" width=100% border=0 frame=below><tr>
+<td align=left><a href="http://www.sbg.bio.ic.ac.uk/phyre2/index.cgi">Phyre Home</a></td>
+<td align=right>Retrieve Phyre Job Id <input type="text" SIZE=30 NAME="jobid"><input type="submit" value="Fetch" name="fetch"></font>
+</td></tr></table></form>
+<center><table width=60% border=0 cellspacing=1 cellpadding=1><tr><td><a class="logo" href="http://www.sbg.bio.ic.ac.uk/phyre2/index.cgi"><img border=0 src="webimg/playing.png"></a></td>
+<td><table class="midshade"><tr><td class="darkshade">Email</td><td>spiwokv@vscht.cz</td></tr>
+<tr><td class="darkshade">Description</td><td>tbn1_____</td></tr>
+<tr><td class="darkshade">Date</td><td>Sun Oct  7 15:47:42 BST 2018</td></tr>
+<tr><td class="darkshade">Unique Job ID</td><td>888c645d580a078d</td></tr>
+<tr><td class="darkshade">Sequence</td><td>WSKEGHVMTC ... <a href="input.fasta">Download FASTA</a></td></tr>
+<tr><td class="darkshade">Job Type</td><td><b>normal</b></td></tr>
+<tr><td class="darkshade">Job Expiry</td><td><div id="renew"></div></td>
+</tr></table>
+</tr></table>
+<p><table width=100% border=0><tr>
+<td align=center valign=top><a class="logo notIpad" href="888c645d580a078d.tar.gz" onClick ="return hideTip();" onMouseOver="return tooltip('Download zip file containing all results and web pages.', '', 'width:200');" onMouseOut="return hideTip();"><img border=0 src="webimg/dlzip_small.png"></a></td>
+</tr></table></p>
+<p><table width=95% frame=below border=1 rules=none><tr><td style="width:30%; color:#737065" align=left>Summary</td><td style="width:70%;">&nbsp</td></tr></table></p>
+<table border=0 width=60%><tr><td colspan=2 class="darkshade">Top model</td></tr><tr><td><div id="gif">
+<table width=100% border=0>
+<tr><td><a class="logo" href="final.casp.pdb" onClick ="return hideTip();" onMouseOver="return tooltip('Download PDB file of final model.', '', 'width:200');" onMouseOut="return hideTip();"><img border=0 src="final.casp.big.png"></a></td></tr>
+<tr><td align=center>Image coloured by rainbow N &rarr; C terminus</td></tr>
+<tr><td><table><tr><td class="midshade" align=center>Model dimensions (&#8491;):</td><td><b>X</b>:53.553 <b>Y</b>:40.555 <b>Z</b>:53.658
+</td></tr></table></td></tr>
+</table>
+</div>
+<div id="jmol" style="display:none"></div> 
+<div id="jmol-controls" style="display:none"> 
+<table border=0 style="width: 100%"><tr>
+<td><script>
+document.write(Jmol.jmolButton(jmolApplet0,"select all; cpk off; spacefill off; wireframe off; cartoon on; color structure","Colour by Secondary Structure"));</script></td>
+<td><script>document.write(Jmol.jmolButton(jmolApplet0,"select all; cpk off; spacefill off; wireframe off; cartoon on; color group; set ambient 40; set specpower 40;","Colour Rainbow N->C"));</script></td>
+</tr><td align=center colspan=3><a href="JavaScript:expand(document.getElementById('jmol')); expand(document.getElementById('jmol-controls')); expand(document.getElementById('gif'))">Close JSmol</a></td></tr>
+</table>
+</div>
+</td><td><table><tr><td><tr><td>Model (left) based on template <a href="#c3sngA_">c3sngA_</a></td></tr><tr><td class="darkshade">Top template information</td></tr><tr><td width=39%><b>PDB header:</b>hydrolase<br><b>Chain: </b>A: <b>PDB Molecule:</b>nuclease;<br>
+<b>PDBTitle:</b> x-ray structure of fully glycosylated bifunctional nuclease tbn1 from2 solanum lycopersicum (tomato)
+</td></tr>
+<tr><td class="darkshade">Confidence and coverage</td></tr>
+<tr><td><table width=100%><tr><td align=left class="midshade">Confidence:</td><td align=left bgcolor=#c93c38><b><font color=white>100.0%</b></td>
+<td align=right class="midshade">Coverage:</td><td align=left bgcolor=#c93c38><b><font color=white> 96%</b></td></tr>
+</table></td></tr><tr><td>267 residues ( 96% of your sequence) have been modelled with 100.0% confidence by the single highest scoring template.</td></tr>
+<tr><td class="darkshade notIpad">3D viewing</td></tr>
+<tr><td><a href="JavaScript:expand(document.getElementById('jmol')); expand(document.getElementById('jmol-controls')); expand(document.getElementById('gif')); init_jmol()" class="notIpad">Interactive 3D view in JSmol</a></td></tr>
+<tr><td>For other options to view your downloaded structure offline see the <a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/help.cgi?id=help/faq">FAQ</a></td></tr>
+</table></td></tr></table><p><table width=95% frame=below border=1 rules=none><tr><td style="width:30%; color:#737065" align=left>Sequence analysis</td><td style="width:70%;">&nbsp</td></tr></table></p>
+<center><table width=30%><tr><td align=center>
+<form><input type="button" name="Button2" value="View PSI-Blast Pseudo-Multiple Sequence Alignment" onclick=openwin("psi-blast.html")></form>
+</td><td align=center valign=top><a href="query.msa.fasta.zip">Download FASTA version</a></td></tr></table></center>
+<p><div id="flipss"><table width=95% frame=below border=1 rules=none><tr><td style="width:40%; color:#737065" valign=bottom align=left>Secondary structure and disorder prediction <a id="sstoggle" href="javascript:void(0)">[Show]</a></td><td style="width:60%;">&nbsp</td></tr></table></div></p>
+<div id="secondaryStructure" style="display:none">
+<p><table width=95%><tr><td align=left><a class="logo" href="./ss_report.pdf" onClick ="return hideTip();" onMouseOver="return tooltip('PDF report for secondary structure and disorder prediction.', '', 'width:200');" onMouseOut="return hideTip();"><img border=0 src="./webimg/pdf-icon.gif"></a></td>
+<td align=left><a class="logo" href="http://www.sbg.bio.ic.ac.uk/phyre2/html/help.cgi?id=help/interpret_normal#ss_diso" onClick ="return hideTip();" onMouseOver="return tooltip('Locations and confidence of predicted helices, strands and disordered regions in your protein. Click for more help.', '', 'width:200');" onMouseOut="return hideTip();"><img border=0 src="./webimg/help.png"></a></td>
+<td align=left><a rel="#voverlay" class="logo" onClick ="return hideTip();" onMouseOver="return tooltip('Coming Soon: Video tutorial explaining how to interpret the Secondary Structure and Disorder prediction results.', '', 'width:200');" onMouseOut="return hideTip();"><img src="./webimg/vidcam.png" alt="Video tutorial"></a></td>
+<td width=90%>&nbsp;</td>
+</tr></table></p>
+<p><table cellspacing=0 cellpadding=0 border=0>
+<tr>
+<td style="width:15em;">&nbsp</td><td>&nbsp</td>
+<td class="index">1</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">10</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">20</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">30</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">40</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">50</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">60</td></tr>
+<tr>
+<td class="darkshade">Sequence</td><td>&nbsp</td>
+<td style="color:6600CC;">W</td><td style="color:e68d3d;">S</td><td style="color:FF0000;">K</td><td style="color:FF0000;">E</td><td style="color:e68d3d;">G</td><td style="color:FF0000;">H</td><td style="color:009900;">V</td><td style="color:009900;">M</td><td style="color:e68d3d;">T</td><td style="color:6600CC;">C</td><td style="color:FF0000;">R</td><td style="color:009900;">I</td><td style="color:e68d3d;">A</td><td style="color:FF0000;">Q</td><td style="color:e68d3d;">G</td><td style="color:009900;">L</td><td style="color:009900;">L</td><td style="color:FF0000;">N</td><td style="color:FF0000;">D</td><td style="color:FF0000;">E</td><td style="color:e68d3d;">A</td><td style="color:e68d3d;">A</td><td style="color:FF0000;">H</td><td style="color:e68d3d;">A</td><td style="color:009900;">V</td><td style="color:FF0000;">K</td><td style="color:009900;">M</td><td style="color:009900;">L</td><td style="color:009900;">L</td><td style="color:e68d3d;">P</td><td style="color:FF0000;">E</td><td style="color:6600CC;">Y</td><td style="color:009900;">V</td><td style="color:FF0000;">N</td><td style="color:e68d3d;">G</td><td style="color:FF0000;">D</td><td style="color:009900;">L</td><td style="color:e68d3d;">S</td><td style="color:e68d3d;">A</td><td style="color:009900;">L</td><td style="color:6600CC;">C</td><td style="color:009900;">V</td><td style="color:6600CC;">W</td><td style="color:e68d3d;">P</td><td style="color:FF0000;">D</td><td style="color:FF0000;">Q</td><td style="color:009900;">V</td><td style="color:FF0000;">R</td><td style="color:FF0000;">H</td><td style="color:6600CC;">W</td><td style="color:6600CC;">Y</td><td style="color:FF0000;">K</td><td style="color:6600CC;">Y</td><td style="color:FF0000;">K</td><td style="color:6600CC;">W</td><td style="color:e68d3d;">T</td><td style="color:e68d3d;">S</td><td style="color:e68d3d;">P</td><td style="color:009900;">L</td><td style="color:FF0000;">H</td></tr>
+<tr>
+<td class="midshadess">Secondary structure</td><td>&nbsp</td>
+<td><hr></td><td><hr></td><td><hr></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td><hr></td><td><hr></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td><hr></td><td><hr></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr>
+<tr>
+<td class="darkshade">SS confidence</td><td>&nbsp</td>
+<td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td></tr>
+<tr>
+<td class="midshadess">Disorder</td><td>&nbsp</td>
+<td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="disorder"><b>?</b></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr>
+<tr>
+<td class="darkshade">Disorder confidence</td><td>&nbsp</td>
+<td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td></tr>
+<tr><td colspan=81>&nbsp</td></tr>
+<tr>
+<td style="width:15em;">&nbsp</td><td>&nbsp</td>
+<td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">70</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">80</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">90</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">100</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">110</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">120</td></tr>
+<tr>
+<td class="darkshade">Sequence</td><td>&nbsp</td>
+<td style="color:6600CC;">F</td><td style="color:009900;">I</td><td style="color:FF0000;">D</td><td style="color:e68d3d;">T</td><td style="color:e68d3d;">P</td><td style="color:FF0000;">D</td><td style="color:FF0000;">K</td><td style="color:e68d3d;">A</td><td style="color:6600CC;">C</td><td style="color:FF0000;">N</td><td style="color:6600CC;">F</td><td style="color:FF0000;">D</td><td style="color:6600CC;">Y</td><td style="color:FF0000;">E</td><td style="color:FF0000;">R</td><td style="color:FF0000;">D</td><td style="color:6600CC;">C</td><td style="color:FF0000;">H</td><td style="color:FF0000;">D</td><td style="color:FF0000;">Q</td><td style="color:FF0000;">H</td><td style="color:e68d3d;">G</td><td style="color:009900;">V</td><td style="color:FF0000;">K</td><td style="color:FF0000;">D</td><td style="color:009900;">M</td><td style="color:6600CC;">C</td><td style="color:009900;">V</td><td style="color:e68d3d;">A</td><td style="color:e68d3d;">G</td><td style="color:e68d3d;">A</td><td style="color:009900;">I</td><td style="color:FF0000;">Q</td><td style="color:FF0000;">N</td><td style="color:6600CC;">F</td><td style="color:e68d3d;">T</td><td style="color:e68d3d;">T</td><td style="color:FF0000;">Q</td><td style="color:009900;">L</td><td style="color:e68d3d;">S</td><td style="color:FF0000;">H</td><td style="color:6600CC;">Y</td><td style="color:FF0000;">R</td><td style="color:FF0000;">E</td><td style="color:e68d3d;">G</td><td style="color:e68d3d;">T</td><td style="color:e68d3d;">S</td><td style="color:FF0000;">D</td><td style="color:FF0000;">R</td><td style="color:FF0000;">R</td><td style="color:6600CC;">Y</td><td style="color:FF0000;">N</td><td style="color:009900;">M</td><td style="color:e68d3d;">T</td><td style="color:FF0000;">E</td><td style="color:e68d3d;">A</td><td style="color:009900;">L</td><td style="color:009900;">L</td><td style="color:6600CC;">F</td><td style="color:009900;">L</td></tr>
+<tr>
+<td class="midshadess">Secondary structure</td><td>&nbsp</td>
+<td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td></tr>
+<tr>
+<td class="darkshade">SS confidence</td><td>&nbsp</td>
+<td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td></tr>
+<tr>
+<td class="midshadess">Disorder</td><td>&nbsp</td>
+<td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td><hr></td><td class="disorder"><b>?</b></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr>
+<tr>
+<td class="darkshade">Disorder confidence</td><td>&nbsp</td>
+<td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td></tr>
+<tr><td colspan=81>&nbsp</td></tr>
+<tr>
+<td style="width:15em;">&nbsp</td><td>&nbsp</td>
+<td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">130</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">140</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">150</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">160</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">170</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">180</td></tr>
+<tr>
+<td class="darkshade">Sequence</td><td>&nbsp</td>
+<td style="color:e68d3d;">S</td><td style="color:FF0000;">H</td><td style="color:6600CC;">F</td><td style="color:009900;">M</td><td style="color:e68d3d;">G</td><td style="color:FF0000;">D</td><td style="color:009900;">I</td><td style="color:FF0000;">H</td><td style="color:FF0000;">Q</td><td style="color:e68d3d;">P</td><td style="color:009900;">M</td><td style="color:FF0000;">H</td><td style="color:009900;">V</td><td style="color:e68d3d;">G</td><td style="color:6600CC;">F</td><td style="color:e68d3d;">T</td><td style="color:e68d3d;">S</td><td style="color:FF0000;">D</td><td style="color:e68d3d;">A</td><td style="color:e68d3d;">G</td><td style="color:e68d3d;">G</td><td style="color:FF0000;">N</td><td style="color:e68d3d;">S</td><td style="color:009900;">I</td><td style="color:FF0000;">D</td><td style="color:009900;">L</td><td style="color:FF0000;">R</td><td style="color:6600CC;">W</td><td style="color:6600CC;">F</td><td style="color:FF0000;">R</td><td style="color:FF0000;">H</td><td style="color:FF0000;">K</td><td style="color:e68d3d;">S</td><td style="color:FF0000;">N</td><td style="color:009900;">L</td><td style="color:FF0000;">H</td><td style="color:FF0000;">H</td><td style="color:009900;">V</td><td style="color:6600CC;">W</td><td style="color:FF0000;">D</td><td style="color:FF0000;">R</td><td style="color:FF0000;">E</td><td style="color:009900;">I</td><td style="color:009900;">I</td><td style="color:009900;">L</td><td style="color:e68d3d;">T</td><td style="color:e68d3d;">A</td><td style="color:e68d3d;">A</td><td style="color:FF0000;">K</td><td style="color:FF0000;">D</td><td style="color:6600CC;">Y</td><td style="color:6600CC;">Y</td><td style="color:e68d3d;">A</td><td style="color:FF0000;">K</td><td style="color:FF0000;">D</td><td style="color:009900;">I</td><td style="color:FF0000;">N</td><td style="color:009900;">L</td><td style="color:009900;">L</td><td style="color:FF0000;">E</td></tr>
+<tr>
+<td class="midshadess">Secondary structure</td><td>&nbsp</td>
+<td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="strand"><img class="strimg" src="webimg/beta_s.png"></td><td class="strand"><img class="strimg" src="webimg/beta_s.png"></td><td class="strand"><img class="strimg" src="webimg/beta_s.png"></td><td class="strand"><img class="strimg" src="webimg/beta_s.png"></td><td class="strand"><img class="strimg" src="webimg/beta_s.png"></td><td class="strand"><img class="strimg" src="webimg/beta_a.png"></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td></tr>
+<tr>
+<td class="darkshade">SS confidence</td><td>&nbsp</td>
+<td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td></tr>
+<tr>
+<td class="midshadess">Disorder</td><td>&nbsp</td>
+<td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="disorder"><b>?</b></td><td><hr></td><td><hr></td><td><hr></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr>
+<tr>
+<td class="darkshade">Disorder confidence</td><td>&nbsp</td>
+<td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td></tr>
+<tr><td colspan=81>&nbsp</td></tr>
+<tr>
+<td style="width:15em;">&nbsp</td><td>&nbsp</td>
+<td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">190</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">200</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">210</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">220</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">230</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">240</td></tr>
+<tr>
+<td class="darkshade">Sequence</td><td>&nbsp</td>
+<td style="color:FF0000;">E</td><td style="color:FF0000;">D</td><td style="color:009900;">I</td><td style="color:FF0000;">E</td><td style="color:e68d3d;">G</td><td style="color:FF0000;">N</td><td style="color:6600CC;">F</td><td style="color:e68d3d;">T</td><td style="color:FF0000;">D</td><td style="color:e68d3d;">G</td><td style="color:009900;">I</td><td style="color:6600CC;">W</td><td style="color:e68d3d;">S</td><td style="color:FF0000;">D</td><td style="color:FF0000;">D</td><td style="color:009900;">L</td><td style="color:e68d3d;">A</td><td style="color:e68d3d;">S</td><td style="color:6600CC;">W</td><td style="color:FF0000;">R</td><td style="color:FF0000;">E</td><td style="color:6600CC;">C</td><td style="color:e68d3d;">G</td><td style="color:FF0000;">N</td><td style="color:009900;">V</td><td style="color:6600CC;">F</td><td style="color:e68d3d;">S</td><td style="color:6600CC;">C</td><td style="color:009900;">V</td><td style="color:FF0000;">N</td><td style="color:FF0000;">K</td><td style="color:6600CC;">F</td><td style="color:e68d3d;">A</td><td style="color:e68d3d;">T</td><td style="color:FF0000;">E</td><td style="color:e68d3d;">S</td><td style="color:009900;">I</td><td style="color:FF0000;">N</td><td style="color:009900;">I</td><td style="color:e68d3d;">A</td><td style="color:6600CC;">C</td><td style="color:FF0000;">K</td><td style="color:6600CC;">W</td><td style="color:e68d3d;">G</td><td style="color:6600CC;">Y</td><td style="color:FF0000;">K</td><td style="color:e68d3d;">G</td><td style="color:009900;">V</td><td style="color:FF0000;">E</td><td style="color:e68d3d;">A</td><td style="color:e68d3d;">G</td><td style="color:FF0000;">E</td><td style="color:e68d3d;">T</td><td style="color:009900;">L</td><td style="color:e68d3d;">S</td><td style="color:FF0000;">D</td><td style="color:FF0000;">D</td><td style="color:6600CC;">Y</td><td style="color:6600CC;">F</td><td style="color:FF0000;">N</td></tr>
+<tr>
+<td class="midshadess">Secondary structure</td><td>&nbsp</td>
+<td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td></tr>
+<tr>
+<td class="darkshade">SS confidence</td><td>&nbsp</td>
+<td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td></tr>
+<tr>
+<td class="midshadess">Disorder</td><td>&nbsp</td>
+<td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="disorder"><b>?</b></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr>
+<tr>
+<td class="darkshade">Disorder confidence</td><td>&nbsp</td>
+<td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td></tr>
+<tr><td colspan=81>&nbsp</td></tr>
+<tr>
+<td style="width:15em;">&nbsp</td><td>&nbsp</td>
+<td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">250</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">260</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">270</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td class="index">.</td><td>.</td><td class="index">.</td><td class="index">.</td></tr>
+<tr>
+<td class="darkshade">Sequence</td><td>&nbsp</td>
+<td style="color:e68d3d;">S</td><td style="color:FF0000;">R</td><td style="color:009900;">L</td><td style="color:e68d3d;">P</td><td style="color:009900;">I</td><td style="color:009900;">V</td><td style="color:009900;">M</td><td style="color:FF0000;">K</td><td style="color:FF0000;">R</td><td style="color:009900;">V</td><td style="color:e68d3d;">A</td><td style="color:FF0000;">Q</td><td style="color:e68d3d;">G</td><td style="color:e68d3d;">G</td><td style="color:009900;">I</td><td style="color:FF0000;">R</td><td style="color:009900;">L</td><td style="color:e68d3d;">A</td><td style="color:009900;">M</td><td style="color:009900;">L</td><td style="color:009900;">L</td><td style="color:FF0000;">N</td><td style="color:FF0000;">N</td><td style="color:009900;">V</td><td style="color:6600CC;">F</td><td style="color:e68d3d;">G</td><td style="color:e68d3d;">A</td><td style="color:e68d3d;">S</td><td style="color:FF0000;">Q</td><td style="color:FF0000;">Q</td><td style="color:FF0000;">E</td><td style="color:FF0000;">D</td><td style="color:e68d3d;">S</td><td style="color:009900;">V</td><td style="color:009900;">V</td><td style="color:e68d3d;">A</td><td style="color:e68d3d;">T</td></tr>
+<tr>
+<td class="midshadess">Secondary structure</td><td>&nbsp</td>
+<td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td class="helix"><img class="helimg" src="webimg/helix2small.png"></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td></tr>
+<tr>
+<td class="darkshade">SS confidence</td><td>&nbsp</td>
+<td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#e68d3d size=7></td></tr>
+<tr>
+<td class="midshadess">Disorder</td><td>&nbsp</td>
+<td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td><hr></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td><td class="disorder"><b>?</b></td></tr>
+<tr>
+<td class="darkshade">Disorder confidence</td><td>&nbsp</td>
+<td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#91a0cb size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#41ac82 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#6f6da5 size=7></td><td class="mini"><hr color=#3f3d81 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#76c0d1 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#65b449 size=7></td><td class="mini"><hr color=#b7db48 size=7></td><td class="mini"><hr color=#f1d532 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#e68d3d size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td><td class="mini"><hr color=#c93c38 size=7></td></tr>
+<tr><td colspan=81>&nbsp</td></tr>
+</table></p>
+<p><table width=40%><tr><td>
+<table><tr><td align=center colspan=12>Confidence Key</td></tr><tr>
+<td><font color=#c93c38>High(9)</font></td><td bgcolor=#c93c38>&nbsp</td>
+<td bgcolor=#e68d3d>&nbsp</td>
+<td bgcolor=#f1d532>&nbsp</td>
+<td bgcolor=#b7db48>&nbsp</td>
+<td bgcolor=#65b449>&nbsp</td>
+<td bgcolor=#41ac82>&nbsp</td>
+<td bgcolor=#76c0d1>&nbsp</td>
+<td bgcolor=#91a0cb>&nbsp</td>
+<td bgcolor=#6f6da5>&nbsp</td>
+<td bgcolor=#3f3d81>&nbsp</td>
+<td><font color=#3f3d81>Low (0)</font></td></tr>
+</table>
+</td><td><table>
+<tr><td><b>?</b></td><td>Disordered ( 13%)</td></tr>
+<tr><td><img src="webimg/helix2small.png"><img src="webimg/helix2small.png"></td><td>Alpha helix (  54%)</td></tr>
+<tr><td><img src="webimg/beta_s.png"><img src="webimg/beta_a.png"></td></td><td>Beta strand (   2%)</td></tr>
+</table></td>
+</tr></table></p>
+</div>
+<a name="domain_analysis"></a><p><div id="flipda"><table width=95% frame=below border=1 rules=none><tr><td style="width:30%; color:#737065" align=left>Domain analysis <a id="domtoggle" href="javascript:void(0)">[Show]</a></td><td style="width:70%;">&nbsp</td></tr></table></div></p>
+<div id="domainAnalysis" style="margin-left:0px; display:none">
+<p><table width=95%><tr><td align=left><a class="logo" href="./dom_report.pdf" onClick ="return hideTip();" onMouseOver="return tooltip('PDF report for domain analysis.', '', 'width:200');" onMouseOut="return hideTip();"><img border=0 src="./webimg/pdf-icon.gif"></a></td>
+<td align=left><a class="logo" href="http://www.sbg.bio.ic.ac.uk/phyre2/html/help.cgi?id=help/interpret_normal#domain" onClick ="return hideTip();" onMouseOver="return tooltip('Regions of your sequence matched by templates, coloured by confidence. Indicates potential domain boundaries. Only the top 20 hits are modelled. Hover over these for summary info. Click for more help.', '', 'width:200');" onMouseOut="return hideTip();"><img border=0 src="./webimg/help.png"></a></td>
+<td align=left><a rel="#voverlay" class="logo" href="http://www.youtube.com/v/Adm8JQZMmj4?autoplay=1&rel=0&enablejsapi=1&playerapiid=ytplayer"  onClick ="return hideTip();" onMouseOver="return tooltip('Coming Soon: Video tutorial explaining how to interpret the Domain Analysis results.', '', 'width:200');" onMouseOut="return hideTip();"><img src="./webimg/vidcam.png" alt="Video tutorial"></a></td>
+<td width=90%>&nbsp;</td>
+<table width=100% border=0 cellspacing=0 cellpadding=0 style="width:65em;">
+<tr><td><table cellspacing=0 cellpadding=0 border=1 style="width:64em;" >
+<tr><th class="darkshade_dom"width=5%>Rank</th><th class="darkshade_dom" width=95%>Aligned region</th></tr>
+</table></td></tr>
+<tr><td><div style="width:65em; height:20em; overflow:auto;">
+<table cellspacing=0 cellpadding=0 border=1 rules=rows frame=box style="width:64em";>
+<tr class="midshade">
+<td align=center width=5%>1</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=0%><hr color=white size=2></td>
+<td width=96% align=center bgcolor="#c93c38"><a href="#c3sngA_" class="tipper" rel="{content:'tipContainer1',position:-1}"><font color=white>c3sngA_</font></a></td>
+<td width=3%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer1">
+<h3>PDB 3sng chain A</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c3sngA_.1.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>1 - 267<br><b>Aligned: </b>267<br><b>Modelled: </b>267<br><b>Confidence: </b>100.0%<br><b>Identity: </b>100%<br><b>PDB header:</b>hydrolase<br> <b>Chain: </b>A: <b>PDB Molecule:</b>nuclease;<br> 
+<b>PDBTitle:</b> x-ray structure of fully glycosylated bifunctional nuclease tbn1 from2 solanum lycopersicum (tomato)
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>2</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=0%><hr color=white size=2></td>
+<td width=95% align=center bgcolor="#c93c38"><a href="#c3w52A_" class="tipper" rel="{content:'tipContainer2',position:-1}"><font color=white>c3w52A_</font></a></td>
+<td width=3%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer2">
+<h3>PDB 3w52 chain A</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c3w52A_.2.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>1 - 266<br><b>Aligned: </b>256<br><b>Modelled: </b>266<br><b>Confidence: </b>100.0%<br><b>Identity: </b>54%<br><b>PDB header:</b>hydrolase<br> <b>Chain: </b>A: <b>PDB Molecule:</b>endonuclease 2;<br> 
+<b>PDBTitle:</b> zinc-dependent bifunctional nuclease
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>3</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=0%><hr color=white size=2></td>
+<td width=95% align=center bgcolor="#c93c38"><a href="#d1ak0a_" class="tipper" rel="{content:'tipContainer3',position:-1}"><font color=white>d1ak0a_</font></a></td>
+<td width=4%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer3">
+<h3>PDB 1ak0 chain A</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="d1ak0a_.3.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>1 - 265<br><b>Aligned: </b>255<br><b>Modelled: </b>265<br><b>Confidence: </b>100.0%<br><b>Identity: </b>29%<br><b>Fold: </b>Phospholipase C/P1 nuclease<br> <b>Superfamily: </b>Phospholipase C/P1 nuclease<br> <b>Family: </b>P1 nuclease<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>4</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=0%><hr color=white size=2></td>
+<td width=96% align=center bgcolor="#c93c38"><a href="#c5fbfA_" class="tipper" rel="{content:'tipContainer4',position:-1}"><font color=white>c5fbfA_</font></a></td>
+<td width=3%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer4">
+<h3>PDB 5fbf chain A</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c5fbfA_.4.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>1 - 268<br><b>Aligned: </b>257<br><b>Modelled: </b>268<br><b>Confidence: </b>100.0%<br><b>Identity: </b>29%<br><b>PDB header:</b>hydrolase<br> <b>Chain: </b>A: <b>PDB Molecule:</b>nuclease s1;<br> 
+<b>PDBTitle:</b> s1 nuclease from aspergillus oryzae in complex with two molecules of2 2'-deoxycytidine-5'-monophosphate
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>5</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=0%><hr color=white size=2></td>
+<td width=96% align=center bgcolor="#c93c38"><a href="#d1ah7a_" class="tipper" rel="{content:'tipContainer5',position:-1}"><font color=white>d1ah7a_</font></a></td>
+<td width=3%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer5">
+<h3>PDB 1ah7 chain A</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="d1ah7a_.5.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>1 - 267<br><b>Aligned: </b>229<br><b>Modelled: </b>243<br><b>Confidence: </b>100.0%<br><b>Identity: </b>15%<br><b>Fold: </b>Phospholipase C/P1 nuclease<br> <b>Superfamily: </b>Phospholipase C/P1 nuclease<br> <b>Family: </b>Phospholipase C<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>6</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=0%><hr color=white size=2></td>
+<td width=96% align=center bgcolor="#c93c38"><a href="#d1khoa1" class="tipper" rel="{content:'tipContainer6',position:-1}"><font color=white>d1khoa1</font></a></td>
+<td width=2%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer6">
+<h3>PDB 1kho chain A domain 1</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="d1khoa1.6.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>2 - 270<br><b>Aligned: </b>232<br><b>Modelled: </b>257<br><b>Confidence: </b>98.5%<br><b>Identity: </b>17%<br><b>Fold: </b>Phospholipase C/P1 nuclease<br> <b>Superfamily: </b>Phospholipase C/P1 nuclease<br> <b>Family: </b>Phospholipase C<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>7</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=0%><hr color=white size=2></td>
+<td width=98% align=center bgcolor="#c93c38"><a href="#d1olpa1" class="tipper" rel="{content:'tipContainer7',position:-1}"><font color=white>d1olpa1</font></a></td>
+<td width=1%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer7">
+<h3>PDB 1olp chain A domain 1</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="d1olpa1.7.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>2 - 274<br><b>Aligned: </b>236<br><b>Modelled: </b>273<br><b>Confidence: </b>98.4%<br><b>Identity: </b>19%<br><b>Fold: </b>Phospholipase C/P1 nuclease<br> <b>Superfamily: </b>Phospholipase C/P1 nuclease<br> <b>Family: </b>Phospholipase C<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>8</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=0%><hr color=white size=2></td>
+<td width=91% align=center bgcolor="#c93c38"><a href="#c1olpB_" class="tipper" rel="{content:'tipContainer8',position:-1}"><font color=white>c1olpB_</font></a></td>
+<td width=7%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer8">
+<h3>PDB 1olp chain B</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c1olpB_.8.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>2 - 255<br><b>Aligned: </b>222<br><b>Modelled: </b>254<br><b>Confidence: </b>97.4%<br><b>Identity: </b>18%<br><b>PDB header:</b>hydrolase<br> <b>Chain: </b>B: <b>PDB Molecule:</b>alpha-toxin;<br> 
+<b>PDBTitle:</b> alpha toxin from clostridium absonum
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>9</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=0%><hr color=white size=2></td>
+<td width=47% align=center bgcolor="#c93c38"><a href="#c1gygA_" class="tipper" rel="{content:'tipContainer9',position:-1}"><font color=white>c1gygA_</font></a></td>
+<td width=51%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer9">
+<h3>PDB 1gyg chain A</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c1gygA_.9.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>2 - 134<br><b>Aligned: </b>117<br><b>Modelled: </b>117<br><b>Confidence: </b>97.3%<br><b>Identity: </b>21%<br><b>PDB header:</b>hydrolase<br> <b>Chain: </b>A: <b>PDB Molecule:</b>phospholipase c;<br> 
+<b>PDBTitle:</b> r32 closed form of alpha-toxin from clostridium perfringens2 strain cer89l43
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>10</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=0%><hr color=white size=2></td>
+<td width=94% align=center bgcolor="#c93c38"><a href="#d1ca1a1" class="tipper" rel="{content:'tipContainer10',position:-1}"><font color=white>d1ca1a1</font></a></td>
+<td width=4%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer10">
+<h3>PDB 1ca1 chain A domain 1</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="d1ca1a1.10.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>2 - 265<br><b>Aligned: </b>226<br><b>Modelled: </b>251<br><b>Confidence: </b>97.0%<br><b>Identity: </b>18%<br><b>Fold: </b>Phospholipase C/P1 nuclease<br> <b>Superfamily: </b>Phospholipase C/P1 nuclease<br> <b>Family: </b>Phospholipase C<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>11</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=93%><hr color=white size=2></td>
+<td width=6% align=center bgcolor="#41ac82"><a href="#c4xpmA_" class="tipper" rel="{content:'tipContainer11',position:-1}"><font color=white>c4xpmA_</font></a></td>
+<td width=0%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer11">
+<h3>PDB 4xpm chain A</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c4xpmA_.11.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>258 - 277<br><b>Aligned: </b>20<br><b>Modelled: </b>20<br><b>Confidence: </b>40.4%<br><b>Identity: </b>30%<br><b>PDB header:</b>protein binding<br> <b>Chain: </b>A: <b>PDB Molecule:</b>protein meh1;<br> 
+<b>PDBTitle:</b> crystal structure of ego-tc
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>12</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=32%><hr color=white size=2></td>
+<td width=14% align=center bgcolor="#6f6da5"><a href="#c2gq1A_" class="tipper" rel="{content:'tipContainer12',position:-1}"><font color=white>c2gq1A_</font></a></td>
+<td width=52%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer12">
+<h3>PDB 2gq1 chain A</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c2gq1A_.12.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>90 - 131<br><b>Aligned: </b>37<br><b>Modelled: </b>42<br><b>Confidence: </b>16.9%<br><b>Identity: </b>8%<br><b>PDB header:</b>hydrolase<br> <b>Chain: </b>A: <b>PDB Molecule:</b>fructose-1,6-bisphosphatase;<br> 
+<b>PDBTitle:</b> crystal structure of recombinant type i fructose-1,6-bisphosphatase2 from escherichia coli complexed with sulfate ions
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>13</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=42%><hr color=white size=2></td>
+<td width=12% align=center bgcolor="#6f6da5"><a href="#c2rhsB_" class="tipper" rel="{content:'tipContainer13',position:-1}"><font color=white>c2rhsB_</font></a></td>
+<td width=44%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer13">
+<h3>PDB 2rhs chain B</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c2rhsB_.13.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>119 - 155<br><b>Aligned: </b>34<br><b>Modelled: </b>37<br><b>Confidence: </b>15.3%<br><b>Identity: </b>21%<br><b>PDB header:</b>ligase<br> <b>Chain: </b>B: <b>PDB Molecule:</b>phenylalanyl-trna synthetase beta chain;<br> 
+<b>PDBTitle:</b> phers from staphylococcus haemolyticus- rational protein engineering2 and inhibitor studies
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>14</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=86%><hr color=white size=2></td>
+<td width=11% align=center bgcolor="#6f6da5"><a href="#c3d0wD_" class="tipper" rel="{content:'tipContainer14',position:-1}"><font color=white>c3d0wD_</font></a></td>
+<td width=1%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer14">
+<h3>PDB 3d0w chain D</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c3d0wD_.14.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>239 - 272<br><b>Aligned: </b>34<br><b>Modelled: </b>34<br><b>Confidence: </b>14.2%<br><b>Identity: </b>12%<br><b>PDB header:</b>structural genomics, unknown function<br> <b>Chain: </b>D: <b>PDB Molecule:</b>yflh protein;<br> 
+<b>PDBTitle:</b> crystal structure of yflh protein from bacillus subtilis. northeast2 structural genomics consortium target sr326
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>15</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=20%><hr color=white size=2></td>
+<td width=6% align=center bgcolor="#6f6da5"><a href="#c1fpvA_" class="tipper" rel="{content:'tipContainer15',position:-1}"><font color=white>c1fpvA_</font></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer15">
+<h3>PDB 1fpv chain A</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c1fpvA_.15.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>56 - 73<br><b>Aligned: </b>18<br><b>Modelled: </b>18<br><b>Confidence: </b>10.4%<br><b>Identity: </b>17%<br><b>PDB header:</b>virus<br> <b>Chain: </b>A: <b>PDB Molecule:</b>feline panleukopenia virus (strain b) viral<br> 
+<b>PDBTitle:</b> structure determination of feline panleukopenia virus empty2 particles
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>16</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=91%><hr color=white size=2></td>
+<td width=3% align=center bgcolor="#3f3d81"><a href="#c5fugI_" class="tipper" rel="{content:'tipContainer16',position:-1}"><font color=white>c5fugI_</font></a></td>
+<td width=5%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer16">
+<h3>PDB 5fug chain I</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c5fugI_.16.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>253 - 263<br><b>Aligned: </b>11<br><b>Modelled: </b>11<br><b>Confidence: </b>9.6%<br><b>Identity: </b>45%<br><b>PDB header:</b>dna binding protein<br> <b>Chain: </b>I: <b>PDB Molecule:</b>vacuolar protein sorting-associated protein 72 homolog;<br> 
+<b>PDBTitle:</b> crystal structure of a human yl1-h2a.z-h2b complex
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>17</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=29%><hr color=white size=2></td>
+<td width=18% align=center bgcolor="#3f3d81"><a href="#d2qzga1" class="tipper" rel="{content:'tipContainer17',position:-1}"><font color=white>d2qzga1</font></a></td>
+<td width=51%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer17">
+<h3>PDB 2qzg chain A domain 1</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="d2qzga1.17.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>81 - 133<br><b>Aligned: </b>50<br><b>Modelled: </b>53<br><b>Confidence: </b>9.6%<br><b>Identity: </b>18%<br><b>Fold: </b>Bromodomain-like<br> <b>Superfamily: </b>Ta0600-like<br> <b>Family: </b>Ta0600-like<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>18</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=46%><hr color=white size=2></td>
+<td width=4% align=center bgcolor="#3f3d81"><a href="#c2eouA_" class="tipper" rel="{content:'tipContainer18',position:-1}"><font color=white>c2eouA_</font></a></td>
+<td width=49%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer18">
+<h3>PDB 2eou chain A</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c2eouA_.18.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>128 - 141<br><b>Aligned: </b>14<br><b>Modelled: </b>14<br><b>Confidence: </b>9.6%<br><b>Identity: </b>36%<br><b>PDB header:</b>transcription<br> <b>Chain: </b>A: <b>PDB Molecule:</b>zinc finger protein 473;<br> 
+<b>PDBTitle:</b> solution structure of the c2h2 type zinc finger (region 370-2 400) of human zinc finger protein 473
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>19</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=20%><hr color=white size=2></td>
+<td width=6% align=center bgcolor="#3f3d81"><a href="#c2g8gA_" class="tipper" rel="{content:'tipContainer19',position:-1}"><font color=white>c2g8gA_</font></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer19">
+<h3>PDB 2g8g chain A</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c2g8gA_.19.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>56 - 73<br><b>Aligned: </b>18<br><b>Modelled: </b>18<br><b>Confidence: </b>9.5%<br><b>Identity: </b>22%<br><b>PDB header:</b>virus<br> <b>Chain: </b>A: <b>PDB Molecule:</b>capsid;<br> 
+<b>PDBTitle:</b> structurally mapping the diverse phenotype of adeno-2 associated virus serotype 4
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>20</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=42%><hr color=white size=2></td>
+<td width=12% align=center bgcolor="#3f3d81"><a href="#c4p71B_" class="tipper" rel="{content:'tipContainer20',position:-1}"><font color=white>c4p71B_</font></a></td>
+<td width=44%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<div class="tipContainer" id="tipContainer20">
+<h3>PDB 4p71 chain B</h3>
+<div style="float:left; width:180px; height:180px; display:block; position:relative; margin-right:10px;">
+<img src="c4p71B_.20.png" width="180" height="180" alt="3D model" /></div>
+<p><b>Region: </b>119 - 155<br><b>Aligned: </b>33<br><b>Modelled: </b>37<br><b>Confidence: </b>9.0%<br><b>Identity: </b>24%<br><b>PDB header:</b>ligase<br> <b>Chain: </b>B: <b>PDB Molecule:</b>phenylalanine--trna ligase beta subunit;<br> 
+<b>PDBTitle:</b> apo phers from p. aeuriginosa
+<br></p>
+<div class="rights">Phyre2</div>
+</div>
+<tr class="midshade">
+<td align=center width=5%>21</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=46%><hr color=white size=2></td>
+<td width=9%><hr color="#3f3d81" size=6></a></td>
+<td width=44%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>22</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=42%><hr color=white size=2></td>
+<td width=3%><hr color="#3f3d81" size=6></a></td>
+<td width=53%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>23</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=29%><hr color=white size=2></td>
+<td width=18%><hr color="#3f3d81" size=6></a></td>
+<td width=51%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>24</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=31%><hr color=white size=2></td>
+<td width=12%><hr color="#3f3d81" size=6></a></td>
+<td width=55%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>25</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=17%><hr color=white size=2></td>
+<td width=9%><hr color="#3f3d81" size=6></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>26</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=43%><hr color=white size=2></td>
+<td width=9%><hr color="#3f3d81" size=6></a></td>
+<td width=47%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>27</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=20%><hr color=white size=2></td>
+<td width=6%><hr color="#3f3d81" size=6></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>28</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=32%><hr color=white size=2></td>
+<td width=14%><hr color="#3f3d81" size=6></a></td>
+<td width=52%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>29</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=2%><hr color=white size=2></td>
+<td width=9%><hr color="#3f3d81" size=6></a></td>
+<td width=88%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>30</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=91%><hr color=white size=2></td>
+<td width=3%><hr color="#3f3d81" size=6></a></td>
+<td width=5%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>31</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=32%><hr color=white size=2></td>
+<td width=14%><hr color="#3f3d81" size=6></a></td>
+<td width=52%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>32</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=20%><hr color=white size=2></td>
+<td width=6%><hr color="#3f3d81" size=6></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>33</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=42%><hr color=white size=2></td>
+<td width=5%><hr color="#3f3d81" size=6></a></td>
+<td width=52%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>34</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=20%><hr color=white size=2></td>
+<td width=6%><hr color="#3f3d81" size=6></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>35</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=20%><hr color=white size=2></td>
+<td width=6%><hr color="#3f3d81" size=6></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>36</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=20%><hr color=white size=2></td>
+<td width=6%><hr color="#3f3d81" size=6></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>37</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=2%><hr color=white size=2></td>
+<td width=10%><hr color="#3f3d81" size=6></a></td>
+<td width=87%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>38</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=44%><hr color=white size=2></td>
+<td width=3%><hr color="#3f3d81" size=6></a></td>
+<td width=52%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>39</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=32%><hr color=white size=2></td>
+<td width=14%><hr color="#3f3d81" size=6></a></td>
+<td width=52%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>40</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=32%><hr color=white size=2></td>
+<td width=14%><hr color="#3f3d81" size=6></a></td>
+<td width=52%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>41</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=86%><hr color=white size=2></td>
+<td width=6%><hr color="#3f3d81" size=6></a></td>
+<td width=7%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>42</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=32%><hr color=white size=2></td>
+<td width=14%><hr color="#3f3d81" size=6></a></td>
+<td width=52%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>43</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=20%><hr color=white size=2></td>
+<td width=6%><hr color="#3f3d81" size=6></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>44</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=20%><hr color=white size=2></td>
+<td width=6%><hr color="#3f3d81" size=6></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>45</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=20%><hr color=white size=2></td>
+<td width=6%><hr color="#3f3d81" size=6></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>46</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=17%><hr color=white size=2></td>
+<td width=8%><hr color="#3f3d81" size=6></a></td>
+<td width=73%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>47</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=32%><hr color=white size=2></td>
+<td width=14%><hr color="#3f3d81" size=6></a></td>
+<td width=52%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+<tr class="midshade">
+<td align=center width=5%>48</td>
+<td class="midshade"width=85%>
+<table width=100% cellpadding=0 cellspacing=0><tr><td width=46%><hr color=white size=2></td>
+<td width=9%><hr color="#3f3d81" size=6></a></td>
+<td width=44%><hr color=white size=2></td></tr></table>
+</td>
+</tr>
+</table>
+</div>
+</td></tr></table>
+<br><br><br>
+</div></div>
+<center><p><div id="flipdetailed"><table width=95% frame=below border=1 rules=none><tr><td style="width:30%; color:#737065" align=left>Detailed template information <a id="detailtoggle" href="javascript:void(0)">[Hide]</a></td><td style="width:70%;">&nbsp</td></tr></table></div></p>
+<div id="detailed">
+<p><table width=95%><tr><td align=left><a class="logo" href="./hit_report.pdf" onClick ="return hideTip();" onMouseOver="return tooltip('PDF report for detailed template information.', '', 'width:200');" onMouseOut="return hideTip();"><img border=0 src="./webimg/pdf-icon.gif"></a></td>
+<td align=left><a class="logo" href="http://www.sbg.bio.ic.ac.uk/phyre2/html/help.cgi?id=help/interpret_normal#detailed" onClick ="return hideTip();" onMouseOver="return tooltip('Ranked list of models of your protein based on different templates. Only the top 20 hits are modelled. Click the Alignment button for more info or the Run Investigator button for in-depth analysis of model quality and mutational effects. Click for more help.', '', 'width:200');" onMouseOut="return hideTip();"><img border=0 src="./webimg/help.png"></a></td>
+<td align=left><a rel="#voverlay" class="logo"  onClick ="return hideTip();" onMouseOver="return tooltip('Coming Soon: Video tutorial explaining how to interpret the Detailed Template Information results.', '', 'width:200');" onMouseOut="return hideTip();"><img src="./webimg/vidcam.png" alt="Video tutorial"></a></td>
+<td width=90%>&nbsp;</td>
+</tr></table></p>
+<form name="superpose" action="http://www.sbg.bio.ic.ac.uk/phyre2/webscripts/superpose.cgi" method="POST">
+<input type="hidden" name="jobid" value="888c645d580a078d">
+<table cellspacing=0 cellpadding=0 border=0 style="width:85em;" >
+<tr><td>
+<table cellspacing=0 cellpadding=0 border=1 style="width:84em";>
+<tr style="height:3em">
+<th class="darkshade_dom" width=3%>#<br><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/help.cgi?id=help/interpret_normal#detailed" onMouseOver="return tooltip('Models are ranked according to raw alignment score. This takes into account sequence and secondary structure similarity and inserts and deletes. Click for more detailed help.', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="webimg/infoIcon.gif"></a></th><th class="darkshade_dom" width=8%>Template</th>
+<th class="darkshade_dom" width=16%>Alignment Coverage</th><th class="darkshade_dom" width=13%>3D Model</th>
+<th class="darkshade_dom" width=10%>Confidence<br><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/help.cgi?id=help/interpret_normal#detailed" onMouseOver="return tooltip('Confidence is the probability that your sequence and the template are homologous. This is different to model quality. Click for more detailed help.', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="webimg/infoIcon.gif"></a></th><th class="darkshade_dom" width=6%>% i.d.</th>
+<th class="darkshade_dom" width=39%>Template Information</th>
+</tr></table>
+</td></tr>
+<tr><td><div style="word-wrap: break-word width:85em; height:60em; overflow:auto;">
+<table class="midshade" cellspacing=0 cellpadding=0 border=1 rules=rows frame=box style="width:84em";>
+<tr style="word-wrap:break-word;"><td align=center width=3%>1</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c3sngA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c3sngA_</a><br><input type="radio" name="master" value="c3sngA_.1" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.1" value="c3sngA_.1" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c3sngA_" id="c3sngA_" ><tr><td width=0%><hr color=white size=2></td><td width=96%><hr color=#c93c38 size=4></td><td width=3%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 1-267 of your sequence aligned (96% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c3sngA_.1.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c3sngA_.1.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c3sngA_.1.png"></a></td>
+<td align=center width=10% bgcolor=#c93c38>100.0</td>
+<td align=center width=6% bgcolor=#c93c38 style="border-left: 1px solid #737065;">100</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>hydrolase<br><b>Chain: </b>A: <b>PDB Molecule:</b>nuclease;<br>
+<b>PDBTitle:</b> x-ray structure of fully glycosylated bifunctional nuclease tbn1 from2 solanum lycopersicum (tomato)
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c3sngA_.1"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>2</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c3w52A_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c3w52A_</a><br><input type="radio" name="master" value="c3w52A_.2" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.2" value="c3w52A_.2" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c3w52A_" id="c3w52A_" ><tr><td width=0%><hr color=white size=2></td><td width=95%><hr color=#c93c38 size=4></td><td width=3%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 1-266 of your sequence aligned (95% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c3w52A_.2.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c3w52A_.2.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c3w52A_.2.png"></a></td>
+<td align=center width=10% bgcolor=#c93c38>100.0</td>
+<td align=center width=6% bgcolor=#c93c38 style="border-left: 1px solid #737065;">54</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>hydrolase<br><b>Chain: </b>A: <b>PDB Molecule:</b>endonuclease 2;<br>
+<b>PDBTitle:</b> zinc-dependent bifunctional nuclease
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c3w52A_.2"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>3</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1ak0a_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1ak0a_</a><br><input type="radio" name="master" value="d1ak0a_.3" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.3" value="d1ak0a_.3" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1ak0a_" id="d1ak0a_" ><tr><td width=0%><hr color=white size=2></td><td width=95%><hr color=#c93c38 size=4></td><td width=4%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 1-265 of your sequence aligned (95% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1ak0a_.3.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="d1ak0a_.3.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="d1ak0a_.3.png"></a></td>
+<td align=center width=10% bgcolor=#c93c38>100.0</td>
+<td align=center width=6%>29</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Phospholipase C/P1 nuclease<br><b>Superfamily:</b>Phospholipase C/P1 nuclease<br><b>Family:</b>P1 nuclease</td></tr></table></td></tr>
+<tr><td align=center><div id="d1ak0a_.3"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>4</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c5fbfA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c5fbfA_</a><br><input type="radio" name="master" value="c5fbfA_.4" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.4" value="c5fbfA_.4" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c5fbfA_" id="c5fbfA_" ><tr><td width=0%><hr color=white size=2></td><td width=96%><hr color=#c93c38 size=4></td><td width=3%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 1-268 of your sequence aligned (96% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c5fbfA_.4.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c5fbfA_.4.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c5fbfA_.4.png"></a></td>
+<td align=center width=10% bgcolor=#c93c38>100.0</td>
+<td align=center width=6%>29</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>hydrolase<br><b>Chain: </b>A: <b>PDB Molecule:</b>nuclease s1;<br>
+<b>PDBTitle:</b> s1 nuclease from aspergillus oryzae in complex with two molecules of2 2'-deoxycytidine-5'-monophosphate
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c5fbfA_.4"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>5</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1ah7a_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1ah7a_</a><br><input type="radio" name="master" value="d1ah7a_.5" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.5" value="d1ah7a_.5" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1ah7a_" id="d1ah7a_" ><tr><td width=0%><hr color=white size=2></td><td width=96%><hr color=#c93c38 size=4></td><td width=3%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 1-267 of your sequence aligned (96% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1ah7a_.5.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="d1ah7a_.5.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="d1ah7a_.5.png"></a></td>
+<td align=center width=10% bgcolor=#c93c38>100.0</td>
+<td align=center width=6%>15</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Phospholipase C/P1 nuclease<br><b>Superfamily:</b>Phospholipase C/P1 nuclease<br><b>Family:</b>Phospholipase C</td></tr></table></td></tr>
+<tr><td align=center><div id="d1ah7a_.5"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>6</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1khoa1" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1khoa1</a><br><input type="radio" name="master" value="d1khoa1.6" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.6" value="d1khoa1.6" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1khoa1" id="d1khoa1" ><tr><td width=0%><hr color=white size=2></td><td width=96%><hr color=#c93c38 size=4></td><td width=2%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 2-270 of your sequence aligned (96% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1khoa1.6.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="d1khoa1.6.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="d1khoa1.6.png"></a></td>
+<td align=center width=10% bgcolor=#c93c38>98.5</td>
+<td align=center width=6%>17</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Phospholipase C/P1 nuclease<br><b>Superfamily:</b>Phospholipase C/P1 nuclease<br><b>Family:</b>Phospholipase C</td></tr></table></td></tr>
+<tr><td align=center><div id="d1khoa1.6"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>7</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1olpa1" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1olpa1</a><br><input type="radio" name="master" value="d1olpa1.7" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.7" value="d1olpa1.7" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1olpa1" id="d1olpa1" ><tr><td width=0%><hr color=white size=2></td><td width=98%><hr color=#c93c38 size=4></td><td width=1%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 2-274 of your sequence aligned (98% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1olpa1.7.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="d1olpa1.7.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="d1olpa1.7.png"></a></td>
+<td align=center width=10% bgcolor=#c93c38>98.4</td>
+<td align=center width=6%>19</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Phospholipase C/P1 nuclease<br><b>Superfamily:</b>Phospholipase C/P1 nuclease<br><b>Family:</b>Phospholipase C</td></tr></table></td></tr>
+<tr><td align=center><div id="d1olpa1.7"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>8</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c1olpB_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c1olpB_</a><br><input type="radio" name="master" value="c1olpB_.8" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.8" value="c1olpB_.8" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c1olpB_" id="c1olpB_" ><tr><td width=0%><hr color=white size=2></td><td width=91%><hr color=#c93c38 size=4></td><td width=7%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 2-255 of your sequence aligned (91% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c1olpB_.8.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c1olpB_.8.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c1olpB_.8.png"></a></td>
+<td align=center width=10% bgcolor=#c93c38>97.4</td>
+<td align=center width=6%>18</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>hydrolase<br><b>Chain: </b>B: <b>PDB Molecule:</b>alpha-toxin;<br>
+<b>PDBTitle:</b> alpha toxin from clostridium absonum
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c1olpB_.8"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>9</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c1gygA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c1gygA_</a><br><input type="radio" name="master" value="c1gygA_.9" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.9" value="c1gygA_.9" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c1gygA_" id="c1gygA_" ><tr><td width=0%><hr color=white size=2></td><td width=47%><hr color=#c93c38 size=4></td><td width=51%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 2-134 of your sequence aligned (47% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c1gygA_.9.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c1gygA_.9.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c1gygA_.9.png"></a></td>
+<td align=center width=10% bgcolor=#c93c38>97.3</td>
+<td align=center width=6%>21</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>hydrolase<br><b>Chain: </b>A: <b>PDB Molecule:</b>phospholipase c;<br>
+<b>PDBTitle:</b> r32 closed form of alpha-toxin from clostridium perfringens2 strain cer89l43
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c1gygA_.9"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>10</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1ca1a1" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1ca1a1</a><br><input type="radio" name="master" value="d1ca1a1.10" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.10" value="d1ca1a1.10" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1ca1a1" id="d1ca1a1" ><tr><td width=0%><hr color=white size=2></td><td width=94%><hr color=#c93c38 size=4></td><td width=4%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 2-265 of your sequence aligned (94% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1ca1a1.10.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="d1ca1a1.10.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="d1ca1a1.10.png"></a></td>
+<td align=center width=10% bgcolor=#c93c38>97.0</td>
+<td align=center width=6%>18</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Phospholipase C/P1 nuclease<br><b>Superfamily:</b>Phospholipase C/P1 nuclease<br><b>Family:</b>Phospholipase C</td></tr></table></td></tr>
+<tr><td align=center><div id="d1ca1a1.10"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>11</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c4xpmA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c4xpmA_</a><br><input type="radio" name="master" value="c4xpmA_.11" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.11" value="c4xpmA_.11" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c4xpmA_" id="c4xpmA_" ><tr><td width=93%><hr color=white size=2></td><td width=6%><hr color=#41ac82 size=4></td><td width=0%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 258-277 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c4xpmA_.11.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c4xpmA_.11.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c4xpmA_.11.png"></a></td>
+<td align=center width=10% bgcolor=#41ac82>40.4</td>
+<td align=center width=6%>30</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>protein binding<br><b>Chain: </b>A: <b>PDB Molecule:</b>protein meh1;<br>
+<b>PDBTitle:</b> crystal structure of ego-tc
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c4xpmA_.11"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>12</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c2gq1A_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c2gq1A_</a><br><input type="radio" name="master" value="c2gq1A_.12" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.12" value="c2gq1A_.12" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c2gq1A_" id="c2gq1A_" ><tr><td width=32%><hr color=white size=2></td><td width=14%><hr color=#6f6da5 size=4></td><td width=52%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 90-131 of your sequence aligned (14% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c2gq1A_.12.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c2gq1A_.12.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c2gq1A_.12.png"></a></td>
+<td align=center width=10% bgcolor=#6f6da5>16.9</td>
+<td align=center width=6%>8</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>hydrolase<br><b>Chain: </b>A: <b>PDB Molecule:</b>fructose-1,6-bisphosphatase;<br>
+<b>PDBTitle:</b> crystal structure of recombinant type i fructose-1,6-bisphosphatase2 from escherichia coli complexed with sulfate ions
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c2gq1A_.12"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>13</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c2rhsB_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c2rhsB_</a><br><input type="radio" name="master" value="c2rhsB_.13" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.13" value="c2rhsB_.13" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c2rhsB_" id="c2rhsB_" ><tr><td width=42%><hr color=white size=2></td><td width=12%><hr color=#6f6da5 size=4></td><td width=44%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 119-155 of your sequence aligned (12% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c2rhsB_.13.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c2rhsB_.13.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c2rhsB_.13.png"></a></td>
+<td align=center width=10% bgcolor=#6f6da5>15.3</td>
+<td align=center width=6%>21</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>ligase<br><b>Chain: </b>B: <b>PDB Molecule:</b>phenylalanyl-trna synthetase beta chain;<br>
+<b>PDBTitle:</b> phers from staphylococcus haemolyticus- rational protein engineering2 and inhibitor studies
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c2rhsB_.13"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>14</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c3d0wD_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c3d0wD_</a><br><input type="radio" name="master" value="c3d0wD_.14" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.14" value="c3d0wD_.14" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c3d0wD_" id="c3d0wD_" ><tr><td width=86%><hr color=white size=2></td><td width=11%><hr color=#6f6da5 size=4></td><td width=1%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 239-272 of your sequence aligned (11% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c3d0wD_.14.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c3d0wD_.14.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c3d0wD_.14.png"></a></td>
+<td align=center width=10% bgcolor=#6f6da5>14.2</td>
+<td align=center width=6%>12</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>structural genomics, unknown function<br><b>Chain: </b>D: <b>PDB Molecule:</b>yflh protein;<br>
+<b>PDBTitle:</b> crystal structure of yflh protein from bacillus subtilis. northeast2 structural genomics consortium target sr326
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c3d0wD_.14"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>15</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c1fpvA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c1fpvA_</a><br><input type="radio" name="master" value="c1fpvA_.15" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.15" value="c1fpvA_.15" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c1fpvA_" id="c1fpvA_" ><tr><td width=20%><hr color=white size=2></td><td width=6%><hr color=#6f6da5 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 56-73 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c1fpvA_.15.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c1fpvA_.15.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c1fpvA_.15.png"></a></td>
+<td align=center width=10% bgcolor=#6f6da5>10.4</td>
+<td align=center width=6%>17</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>virus<br><b>Chain: </b>A: <b>PDB Molecule:</b>feline panleukopenia virus (strain b) viral<br>
+<b>PDBTitle:</b> structure determination of feline panleukopenia virus empty2 particles
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c1fpvA_.15"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>16</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c5fugI_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c5fugI_</a><br><input type="radio" name="master" value="c5fugI_.16" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.16" value="c5fugI_.16" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c5fugI_" id="c5fugI_" ><tr><td width=91%><hr color=white size=2></td><td width=3%><hr color=#3f3d81 size=4></td><td width=5%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 253-263 of your sequence aligned (3% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c5fugI_.16.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c5fugI_.16.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c5fugI_.16.png"></a></td>
+<td align=center width=10% bgcolor=#3f3d81>9.6</td>
+<td align=center width=6% bgcolor=#c93c38 style="border-left: 1px solid #737065;">45</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>dna binding protein<br><b>Chain: </b>I: <b>PDB Molecule:</b>vacuolar protein sorting-associated protein 72 homolog;<br>
+<b>PDBTitle:</b> crystal structure of a human yl1-h2a.z-h2b complex
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c5fugI_.16"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>17</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d2qzga1" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d2qzga1</a><br><input type="radio" name="master" value="d2qzga1.17" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.17" value="d2qzga1.17" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d2qzga1" id="d2qzga1" ><tr><td width=29%><hr color=white size=2></td><td width=18%><hr color=#3f3d81 size=4></td><td width=51%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 81-133 of your sequence aligned (18% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d2qzga1.17.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="d2qzga1.17.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="d2qzga1.17.png"></a></td>
+<td align=center width=10% bgcolor=#3f3d81>9.6</td>
+<td align=center width=6%>18</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Bromodomain-like<br><b>Superfamily:</b>Ta0600-like<br><b>Family:</b>Ta0600-like</td></tr></table></td></tr>
+<tr><td align=center><div id="d2qzga1.17"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>18</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c2eouA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c2eouA_</a><br><input type="radio" name="master" value="c2eouA_.18" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.18" value="c2eouA_.18" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c2eouA_" id="c2eouA_" ><tr><td width=46%><hr color=white size=2></td><td width=4%><hr color=#3f3d81 size=4></td><td width=49%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 128-141 of your sequence aligned (4% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c2eouA_.18.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c2eouA_.18.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c2eouA_.18.png"></a></td>
+<td align=center width=10% bgcolor=#3f3d81>9.6</td>
+<td align=center width=6%>36</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>transcription<br><b>Chain: </b>A: <b>PDB Molecule:</b>zinc finger protein 473;<br>
+<b>PDBTitle:</b> solution structure of the c2h2 type zinc finger (region 370-2 400) of human zinc finger protein 473
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c2eouA_.18"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>19</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c2g8gA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c2g8gA_</a><br><input type="radio" name="master" value="c2g8gA_.19" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.19" value="c2g8gA_.19" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c2g8gA_" id="c2g8gA_" ><tr><td width=20%><hr color=white size=2></td><td width=6%><hr color=#3f3d81 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 56-73 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c2g8gA_.19.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c2g8gA_.19.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c2g8gA_.19.png"></a></td>
+<td align=center width=10% bgcolor=#3f3d81>9.5</td>
+<td align=center width=6%>22</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>virus<br><b>Chain: </b>A: <b>PDB Molecule:</b>capsid;<br>
+<b>PDBTitle:</b> structurally mapping the diverse phenotype of adeno-2 associated virus serotype 4
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c2g8gA_.19"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>20</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c4p71B_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c4p71B_</a><br><input type="radio" name="master" value="c4p71B_.20" onMouseOver="return tooltip('Select this model as the master in a multiple alignment.', '', 'width:200');" onMouseOut="return hideTip();"><input type="checkbox" name="child.20" value="c4p71B_.20" onMouseOver="return tooltip('Align this model to the master.', '', 'width:200');" onMouseOut="return hideTip();"></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c4p71B_" id="c4p71B_" ><tr><td width=42%><hr color=white size=2></td><td width=12%><hr color=#3f3d81 size=4></td><td width=44%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 119-155 of your sequence aligned (12% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c4p71B_.20.alig.html';"></form></td>
+</tr></table></td>
+<td width=13% align=center><a href="c4p71B_.20.pdb" onMouseOver="return tooltip('Click to download PDB format model', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="c4p71B_.20.png"></a></td>
+<td align=center width=10% bgcolor=#3f3d81>9.0</td>
+<td align=center width=6%>24</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>ligase<br><b>Chain: </b>B: <b>PDB Molecule:</b>phenylalanine--trna ligase beta subunit;<br>
+<b>PDBTitle:</b> apo phers from p. aeuriginosa
+</td></tr></table></td></tr>
+<tr><td align=center><div id="c4p71B_.20"></div></td></tr></table>
+</tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>21</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1jjcb6" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1jjcb6</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1jjcb6" id="d1jjcb6" ><tr><td width=46%><hr color=white size=2></td><td width=9%><hr color=#3f3d81 size=4></td><td width=44%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 129-155 of your sequence aligned (9% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1jjcb6.21.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>8.0</td>
+<td align=center width=6%>35</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>PheT/TilS domain<br><b>Superfamily:</b>PheT/TilS domain<br><b>Family:</b>B3/B4 domain of PheRS, PheT</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>22</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c3h3gB_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c3h3gB_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c3h3gB_" id="c3h3gB_" ><tr><td width=42%><hr color=white size=2></td><td width=3%><hr color=#3f3d81 size=4></td><td width=53%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 119-129 of your sequence aligned (3% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c3h3gB_.22.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>7.9</td>
+<td align=center width=6% bgcolor=#c93c38 style="border-left: 1px solid #737065;">45</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>membrane protein<br><b>Chain: </b>B: <b>PDB Molecule:</b>parathyroid hormone-related protein;<br>
+<b>PDBTitle:</b> crystal structure of the extracellular domain of the human parathyroid2 hormone receptor (pth1r) in complex with parathyroid hormone-related3 protein (pthrp)
+</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>23</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d2qsba1" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d2qsba1</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d2qsba1" id="d2qsba1" ><tr><td width=29%><hr color=white size=2></td><td width=18%><hr color=#3f3d81 size=4></td><td width=51%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 81-133 of your sequence aligned (18% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d2qsba1.23.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>7.9</td>
+<td align=center width=6%>22</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Bromodomain-like<br><b>Superfamily:</b>Ta0600-like<br><b>Family:</b>Ta0600-like</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>24</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c3ikoC_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c3ikoC_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c3ikoC_" id="c3ikoC_" ><tr><td width=31%><hr color=white size=2></td><td width=12%><hr color=#3f3d81 size=4></td><td width=55%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 88-124 of your sequence aligned (12% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c3ikoC_.24.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>7.5</td>
+<td align=center width=6%>9</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>structural protein, protein transport<br><b>Chain: </b>C: <b>PDB Molecule:</b>nucleoporin nup84;<br>
+<b>PDBTitle:</b> crystal structure of the heterotrimeric sec13-nup145c-nup842 nucleoporin complex
+</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>25</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c4qc8A_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c4qc8A_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c4qc8A_" id="c4qc8A_" ><tr><td width=17%><hr color=white size=2></td><td width=9%><hr color=#3f3d81 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 48-73 of your sequence aligned (9% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c4qc8A_.25.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>7.4</td>
+<td align=center width=6%>15</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>virus<br><b>Chain: </b>A: <b>PDB Molecule:</b>vp2;<br>
+<b>PDBTitle:</b> structural annotation of pathogenic bovine parvovirus-1
+</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>26</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1m5ha1" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1m5ha1</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1m5ha1" id="d1m5ha1" ><tr><td width=43%><hr color=white size=2></td><td width=9%><hr color=#3f3d81 size=4></td><td width=47%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 121-146 of your sequence aligned (9% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1m5ha1.26.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>7.3</td>
+<td align=center width=6%>29</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Ferredoxin-like<br><b>Superfamily:</b>Formylmethanofuran:tetrahydromethanopterin formyltransferase<br><b>Family:</b>Formylmethanofuran:tetrahydromethanopterin formyltransferase</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>27</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1mvma_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1mvma_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1mvma_" id="d1mvma_" ><tr><td width=20%><hr color=white size=2></td><td width=6%><hr color=#3f3d81 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 56-73 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1mvma_.27.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>7.3</td>
+<td align=center width=6%>11</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Nucleoplasmin-like/VP (viral coat and capsid proteins)<br><b>Superfamily:</b>ssDNA viruses<br><b>Family:</b>Parvoviridae-like VP</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>28</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1spia_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1spia_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1spia_" id="d1spia_" ><tr><td width=32%><hr color=white size=2></td><td width=14%><hr color=#3f3d81 size=4></td><td width=52%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 90-131 of your sequence aligned (14% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1spia_.28.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>6.9</td>
+<td align=center width=6%>17</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Carbohydrate phosphatase<br><b>Superfamily:</b>Carbohydrate phosphatase<br><b>Family:</b>Inositol monophosphatase/fructose-1,6-bisphosphatase-like</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>29</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c1zgxA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c1zgxA_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c1zgxA_" id="c1zgxA_" ><tr><td width=2%><hr color=white size=2></td><td width=9%><hr color=#3f3d81 size=4></td><td width=88%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 8-33 of your sequence aligned (9% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c1zgxA_.29.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>6.8</td>
+<td align=center width=6%>12</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>hydrolase<br><b>Chain: </b>A: <b>PDB Molecule:</b>guanyl-specific ribonuclease sa;<br>
+<b>PDBTitle:</b> crystal structure of ribonuclease mutant
+</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>30</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c5chlA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c5chlA_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c5chlA_" id="c5chlA_" ><tr><td width=91%><hr color=white size=2></td><td width=3%><hr color=#3f3d81 size=4></td><td width=5%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 253-263 of your sequence aligned (3% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c5chlA_.30.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>6.8</td>
+<td align=center width=6% bgcolor=#c93c38 style="border-left: 1px solid #737065;">45</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>chaperone<br><b>Chain: </b>A: <b>PDB Molecule:</b>vacuolar protein sorting-associated protein 72 homolog;<br>
+<b>PDBTitle:</b> structural basis of h2a.z recognition by yl1 histone chaperone2 component of srcap/swr1 chromatin remodeling complex
+</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>31</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1bk4a_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1bk4a_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1bk4a_" id="d1bk4a_" ><tr><td width=32%><hr color=white size=2></td><td width=14%><hr color=#3f3d81 size=4></td><td width=52%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 90-131 of your sequence aligned (14% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1bk4a_.31.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>6.6</td>
+<td align=center width=6%>14</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Carbohydrate phosphatase<br><b>Superfamily:</b>Carbohydrate phosphatase<br><b>Family:</b>Inositol monophosphatase/fructose-1,6-bisphosphatase-like</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>32</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1c8da_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1c8da_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1c8da_" id="d1c8da_" ><tr><td width=20%><hr color=white size=2></td><td width=6%><hr color=#3f3d81 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 56-73 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1c8da_.32.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>6.4</td>
+<td align=center width=6%>17</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Nucleoplasmin-like/VP (viral coat and capsid proteins)<br><b>Superfamily:</b>ssDNA viruses<br><b>Family:</b>Parvoviridae-like VP</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>33</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1bh9a_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1bh9a_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1bh9a_" id="d1bh9a_" ><tr><td width=42%><hr color=white size=2></td><td width=5%><hr color=#3f3d81 size=4></td><td width=52%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 117-132 of your sequence aligned (5% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1bh9a_.33.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>6.4</td>
+<td align=center width=6%>25</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Histone-fold<br><b>Superfamily:</b>Histone-fold<br><b>Family:</b>TBP-associated factors, TAFs</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>34</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c4g0rA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c4g0rA_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c4g0rA_" id="c4g0rA_" ><tr><td width=20%><hr color=white size=2></td><td width=6%><hr color=#3f3d81 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 56-73 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c4g0rA_.34.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>6.3</td>
+<td align=center width=6%>17</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>virus/dna<br><b>Chain: </b>A: <b>PDB Molecule:</b>capsid protein vp1;<br>
+<b>PDBTitle:</b> structural characterization of h-1 parvovirus: comparison of2 infectious virions to replication defective particles
+</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>35</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c3kieF_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c3kieF_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c3kieF_" id="c3kieF_" ><tr><td width=20%><hr color=white size=2></td><td width=6%><hr color=#3f3d81 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 56-73 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c3kieF_.35.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>6.3</td>
+<td align=center width=6%>22</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>virus<br><b>Chain: </b>F: <b>PDB Molecule:</b>capsid protein vp1;<br>
+<b>PDBTitle:</b> crystal structure of adeno-associated virus serotype 3b
+</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>36</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1lp3a_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1lp3a_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1lp3a_" id="d1lp3a_" ><tr><td width=20%><hr color=white size=2></td><td width=6%><hr color=#3f3d81 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 56-73 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1lp3a_.36.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>6.2</td>
+<td align=center width=6%>22</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Nucleoplasmin-like/VP (viral coat and capsid proteins)<br><b>Superfamily:</b>ssDNA viruses<br><b>Family:</b>Parvoviridae-like VP</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>37</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d2b0la1" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d2b0la1</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d2b0la1" id="d2b0la1" ><tr><td width=2%><hr color=white size=2></td><td width=10%><hr color=#3f3d81 size=4></td><td width=87%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 7-36 of your sequence aligned (10% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d2b0la1.37.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>6.0</td>
+<td align=center width=6%>13</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>DNA/RNA-binding 3-helical bundle<br><b>Superfamily:</b>"Winged helix" DNA-binding domain<br><b>Family:</b>CodY HTH domain</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>38</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d2ebfx2" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d2ebfx2</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d2ebfx2" id="d2ebfx2" ><tr><td width=44%><hr color=white size=2></td><td width=3%><hr color=#3f3d81 size=4></td><td width=52%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 122-131 of your sequence aligned (3% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d2ebfx2.38.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>5.9</td>
+<td align=center width=6%>30</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>EreA/ChaN-like<br><b>Superfamily:</b>EreA/ChaN-like<br><b>Family:</b>PMT domain-like</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>39</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c2fhyL_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c2fhyL_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c2fhyL_" id="c2fhyL_" ><tr><td width=32%><hr color=white size=2></td><td width=14%><hr color=#3f3d81 size=4></td><td width=52%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 90-131 of your sequence aligned (14% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c2fhyL_.39.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>5.8</td>
+<td align=center width=6%>11</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>hydrolase<br><b>Chain: </b>L: <b>PDB Molecule:</b>fructose-1,6-bisphosphatase 1;<br>
+<b>PDBTitle:</b> structure of human liver fpbase complexed with a novel benzoxazole as2 allosteric inhibitor
+</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>40</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1ftaa_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1ftaa_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1ftaa_" id="d1ftaa_" ><tr><td width=32%><hr color=white size=2></td><td width=14%><hr color=#3f3d81 size=4></td><td width=52%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 90-131 of your sequence aligned (14% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1ftaa_.40.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>5.8</td>
+<td align=center width=6%>11</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Carbohydrate phosphatase<br><b>Superfamily:</b>Carbohydrate phosphatase<br><b>Family:</b>Inositol monophosphatase/fructose-1,6-bisphosphatase-like</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>41</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c2l1iA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c2l1iA_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c2l1iA_" id="c2l1iA_" ><tr><td width=86%><hr color=white size=2></td><td width=6%><hr color=#3f3d81 size=4></td><td width=7%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 240-257 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c2l1iA_.41.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>5.7</td>
+<td align=center width=6%>17</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>transcription<br><b>Chain: </b>A: <b>PDB Molecule:</b>hltf protein;<br>
+<b>PDBTitle:</b> nmr structure of the hltf hiran domain
+</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>42</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1d9qa_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1d9qa_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1d9qa_" id="d1d9qa_" ><tr><td width=32%><hr color=white size=2></td><td width=14%><hr color=#3f3d81 size=4></td><td width=52%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 90-131 of your sequence aligned (14% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1d9qa_.42.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>5.7</td>
+<td align=center width=6%>11</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Carbohydrate phosphatase<br><b>Superfamily:</b>Carbohydrate phosphatase<br><b>Family:</b>Inositol monophosphatase/fructose-1,6-bisphosphatase-like</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>43</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c3nttA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c3nttA_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c3nttA_" id="c3nttA_" ><tr><td width=20%><hr color=white size=2></td><td width=6%><hr color=#3f3d81 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 56-73 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c3nttA_.43.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>5.6</td>
+<td align=center width=6%>11</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>virus<br><b>Chain: </b>A: <b>PDB Molecule:</b>capsid protein;<br>
+<b>PDBTitle:</b> structural insights of adeno-associated virus 5. a gene therapy vector2 for cystic fibrosis
+</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>44</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c1k3vA_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c1k3vA_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c1k3vA_" id="c1k3vA_" ><tr><td width=20%><hr color=white size=2></td><td width=6%><hr color=#3f3d81 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 56-73 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c1k3vA_.44.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>5.5</td>
+<td align=center width=6%>22</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>virus<br><b>Chain: </b>A: <b>PDB Molecule:</b>capsid protein vp2;<br>
+<b>PDBTitle:</b> porcine parvovirus capsid
+</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>45</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1k3va_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1k3va_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1k3va_" id="d1k3va_" ><tr><td width=20%><hr color=white size=2></td><td width=6%><hr color=#3f3d81 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 56-73 of your sequence aligned (6% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1k3va_.45.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>5.5</td>
+<td align=center width=6%>22</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Nucleoplasmin-like/VP (viral coat and capsid proteins)<br><b>Superfamily:</b>ssDNA viruses<br><b>Family:</b>Parvoviridae-like VP</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>46</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1s58a_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1s58a_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1s58a_" id="d1s58a_" ><tr><td width=17%><hr color=white size=2></td><td width=8%><hr color=#3f3d81 size=4></td><td width=73%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 49-73 of your sequence aligned (8% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1s58a_.46.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>5.5</td>
+<td align=center width=6%>12</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Nucleoplasmin-like/VP (viral coat and capsid proteins)<br><b>Superfamily:</b>ssDNA viruses<br><b>Family:</b>Parvoviridae-like VP</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>47</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=d1nuwa_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">d1nuwa_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="d1nuwa_" id="d1nuwa_" ><tr><td width=32%><hr color=white size=2></td><td width=14%><hr color=#3f3d81 size=4></td><td width=52%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 90-131 of your sequence aligned (14% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/d1nuwa_.47.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>5.3</td>
+<td align=center width=6%>14</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>Fold:</b>Carbohydrate phosphatase<br><b>Superfamily:</b>Carbohydrate phosphatase<br><b>Family:</b>Inositol monophosphatase/fructose-1,6-bisphosphatase-like</td></tr></table></td></tr>
+</table></tr>
+<tr style="word-wrap:break-word;"><td align=center width=3%>48</td><td width=8% align=center><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/flibview.cgi?pdb=c3pcoD_" onClick ="return hideTip();" onMouseOver="return tooltip('View Fold library info for this entry.', '', 'width:200');" onMouseOut="return hideTip();">c3pcoD_</a></td><td width=16%>
+<table width=100% cellpadding=0 cellspacing=0 name="c3pcoD_" id="c3pcoD_" ><tr><td width=46%><hr color=white size=2></td><td width=9%><hr color=#3f3d81 size=4></td><td width=44%><hr color=white size=2></td></tr>
+<tr>
+<td colspan=3 align=center><form><input type="button" name="Button2" value="Alignment" onMouseOver="return tooltip('Residues 129-155 of your sequence aligned (9% coverage). Click to view detailed alignment info', '', 'width:200');" onMouseOut="return hideTip();" onclick="JavaScript:location.href='./aligs/c3pcoD_.48.alig.html';"></form></td>
+</tr></table></td>
+<td align=center width=13%>not modelled</td>
+<td align=center width=10% bgcolor=#3f3d81>5.1</td>
+<td align=center width=6%>31</td>
+<td style="text-align:left;" width=39%><table width=100%><tr><td><table><tr><td><b>PDB header:</b>ligase<br><b>Chain: </b>D: <b>PDB Molecule:</b>phenylalanyl-trna synthetase, beta chain;<br>
+<b>PDBTitle:</b> crystal structure of e. coli phenylalanine-trna synthetase complexed2 with phenylalanine and amp
+</td></tr></table></td></tr>
+</table></tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<br>
+<input class="notIpad" type="submit" value="Generate superposition of selected models" /><a class="notIpad" href="http://www.sbg.bio.ic.ac.uk/phyre2/html/help.cgi?id=help/interpret_normal#superposition" onMouseOver="return tooltip('Select one master model and several other models that will be superposed on the master. Click for more help.', '', 'width:200');" onClick="return hideTip();" onMouseOut="return hideTip();"><img border=0 src="webimg/infoIcon.gif"></a>
+</form>
+</center>
+</div>
+<div id="ipadBottom" style="margin-left:0px;">
+<center>
+<p><table width=95% frame=below border=1 rules=none><tr><td style="width:30%; color:#737065" align=left>Binding site prediction</td><td style="width:70%;">&nbsp</td></tr></table></p>
+<p>The top ranking model of your protein (c3sngA_ 100.0% confidence) has been submitted to the <a href="http://www.sbg.bio.ic.ac.uk/3dligandsite">3DLigandSite</a> server to predict potential binding sites.</p><p>Results will appear <a href="http://www.sbg.bio.ic.ac.uk/3dligandsite/3dligand_report_p2.cgi?jobid=888c645d580a078d">here</a> when complete</p>
+<br></div>
+<div id="footer">
+<center><hr width=95%> 
+<p>Phyre is <font color=red>now FREE for commercial users!</font></p>
+<p>All images and data generated by Phyre2 are free to use in any
+  publication with acknowledgement</p>
+<table id="footer_table" style="width:60%" border=0>
+
+<tr align=center><td colspan=3><b>Please cite:</b> The Phyre2 web portal for protein modeling, prediction and analysis.</td></tr> 
+<tr align=center><td colspan=3>Kelley LA <i>et al.</i>. <i>Nature Protocols</i>
+10, 845-858 (2015)[<a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/nprot.2015.053.pdf">pdf</a>]
+[<a href="http://www.nature.com/nprot/journal/v10/n6/ris/nprot.2015.053.ris">Citation
+link</a>]</td></tr> 
+<tr><td colspan=3>&nbsp</td></tr>
+
+<tr align=center><td colspan=3>If you use the binding site
+predictions from 3DLigandSite, <b>please also cite:</b></td></tr>
+<tr align=center><td colspan=3>3DLigandSite: predicting ligand-binding sites using similar structures.</td></tr>
+<tr align=center><td colspan=3>Wass MN, Kelley LA and Sternberg
+MJ <i>Nucleic Acids Research</i> 38, W469-73 (2010) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/20513649">PubMed</a>]</td></tr>
+<tr><td colspan=3>&nbsp</td></tr>
+
+<tr><td valign=top align=center><table border=0> 
+
+<tr><td><font size=-1>&copy <a href="http://www.sbg.bio.ic.ac.uk">Structural Bioinformatics Group</a></td></tr> 
+<tr><td><font size=-1>Imperial College London</td></tr> 
+<tr><td><font size=-1><a
+href="http://www.sbg.bio.ic.ac.uk/people/kelley/kelley.html">Lawrence
+Kelley</a>, <a href="http://www.imperial.ac.uk/people/m.sternberg">Michael Sternberg</a></td></tr> 
+<tr>
+<td><font size=-1><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/page.cgi?id=disclaimer">Disclaimer</a></font></td></tr>
+<tr>
+<td><font size=-1><a href="http://www.sbg.bio.ic.ac.uk/phyre2/html/page.cgi?id=terms_conditions">Terms and Conditions</a></font></td>
+</tr>
+</table>
+</td>
+<td valign=top align=center>
+<table border=0>
+<font size=-1>
+<tr><td><font size=-1><b>Component software</b></font></td></tr>
+<tr><td><font size=-1>Template detection: <a
+href="http://www.ncbi.nlm.nih.gov/pubmed/15531603">HHpred
+1.51</a></font></td></tr>
+<tr><td><font size=-1>Secondary structure prediction: <a
+href="http://www.ncbi.nlm.nih.gov/pubmed/10493868">Psi-pred 2.5</a></font></td></tr>
+<tr><td><font size=-1>
+Disorder prediction: <a
+href="http://www.ncbi.nlm.nih.gov/pubmed/15019783">Disopred 2.4</a>
+</font></td></tr>
+<tr><td><font size=-1>Transmembrane prediction: <a
+href="http://www.ncbi.nlm.nih.gov/pubmed/17237066">Memsat_SVM</a>
+</font></td></tr>
+<tr><td>
+<font size=-1>Multi-template modelling and <i>ab initio</i>: <a
+href="http://www.ncbi.nlm.nih.gov/pubmed/20149797">Poing 1.0</a>
+</font></td></tr>
+</table> 
+</font>
+</td><td valign=top align=center> 
+<table class="sbgic" bgcolor=white border=0><tr><td><img src="http://www.sbg.bio.ic.ac.uk/phyre/html/sbg_small.gif"> 
+<img src="http://www.sbg.bio.ic.ac.uk/phyre/html/imperial_logo.gif"> 
+</td></tr> 
+</table></td></tr>
+</table> 
+<br>
+<br>
+</font>
+</center>
+</div>
+</body></html>
+</center>
+<script>
+var isiPad = navigator.userAgent.match(/iPad/i) != null;
+
+// For use within iPad developer UIWebView
+// Thanks to Andrew Hedges!
+var ua = navigator.userAgent;
+var isiPad = /iPad/i.test(ua) || /iPhone OS 3_1_2/i.test(ua) || /iPhone OS 3_2_2/i.test(ua);
+
+      function ChangeCSSRule(xElement,xValue) {
+        var strCSS = 'cssRules';
+if(document.all) {
+           strCSS = 'rules';
+        }
+        document.styleSheets[0][strCSS][0].style[xElement] = xValue;
+      }
+if(isiPad){
+ChangeCSSRule('display','none');
+document.body.style.zoom = "50%";
+}
+</script>
+

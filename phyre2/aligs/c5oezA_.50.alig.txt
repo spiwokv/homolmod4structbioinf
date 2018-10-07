@@ -1,0 +1,14 @@
+50 c5oezA_ Probab=4.97    E-value=73  Score=13.77  Aligned_columns=34  Identities=21%
+
+Q ss_pred             HHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHCCCCCCC
+Q ss_conf             999999999962457744105689999999886405234752
+Q tbn1_____        90 GAIQNFTTQLSHYREGTSDRRYNMTEALLFLSHFMGDIHQPM  131 (277)
+Q Consensus        90 ~ai~~~~~~L~~~~~~~~~~~~~~a~al~~LvHlvGDiHQPL  131 (277)
+                      ..++.+...+.......        +.+||..-+|+|+|+=|
+T Consensus       201 ~~~~~yi~~~~~~~~~~--------y~~RY~gslVaD~HR~L  234 (311)
+T c5oezA_         201 PWFKEYIDYLKMNKTTR--------YSARYIGSMVGDIHRTL  234 (311)
+T ss_dssp             HHHHHHHHHHHHCSSCC--------CEECCCSCHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHCCCCC--------CCEEEEEHHHHHHHHHH
+T ss_conf             78999999987078887--------63048601178789887
+
+

@@ -1,0 +1,14 @@
+45 d1k3va_ Probab=5.51    E-value=2e+02  Score=11.24  Aligned_columns=18  Identities=22%
+
+Q ss_pred             CCCCCCCCCCCCCCCCCH
+Q ss_conf             111134357887678884
+Q tbn1_____        56 TSPLHFIDTPDKACNFDY   73 (277)
+Q Consensus        56 ~~~wHYvd~p~~~~~~~~   73 (277)
+                      +-||+|+|.....|+|.+
+T Consensus        69 ~TPW~Y~DfNa~~~hFSP   86 (542)
+T d1k3va_          69 VTPWSLIDANAWGVWFNP   86 (542)
+T ss_dssp             EEEEEECCCCSHHHHCCH
+T ss_pred             ECCCEEEEECCEEEEECH
+T ss_conf             446035530010001368
+
+

@@ -1,0 +1,14 @@
+81 d2ivda2 Probab=3.50    E-value=59  Score=14.30  Aligned_columns=46  Identities=13%
+
+Q ss_pred             CCHHHHHHHHHHHHHCCHHHHHHHHHHHCCCCCCHHHHHHCCHHHH
+Q ss_conf             7347899999999748999999999971568754199972074643
+Q tbn1_____         2 SKEGHVMTCRIAQGLLNDEAAHAVKMLLPEYVNGDLSALCVWPDQV   47 (277)
+Q Consensus         2 g~~GH~~Va~iA~~~L~~~~~~~i~~iL~~~~~~~l~~~a~WaD~i   47 (277)
+                      |..++.-+...-...|-..+.+.++++|+-.....+..+.-|.+.|
+T Consensus        61 Gg~~~~~~~~~~d~el~~~a~~~l~~~lgi~~~P~~~~v~rw~~ai  106 (108)
+T d2ivda2          61 GGARQPGLVEQDEDALAALAREELKALAGVTARPSFTRVFRWPLGI  106 (108)
+T ss_dssp             ECTTCGGGGGSCHHHHHHHHHHHHHHHHCCCSCCSEEEEEEESSCC
+T ss_pred             CCCCCCCCCCCCHHHHHHHHHHHHHHHCCCCCCCEEEEEEECCCCC
+T ss_conf             5888856337888999999999999981899985189999867875
+
+

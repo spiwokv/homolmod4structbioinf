@@ -1,0 +1,14 @@
+57 c2amuA_ Probab=4.53    E-value=1.9e+02  Score=11.38  Aligned_columns=8  Identities=38%
+
+Q ss_pred             HHHHHHHH
+Q ss_conf             06886420
+Q tbn1_____       154 NLHHVWDR  161 (277)
+Q Consensus       154 nLH~~WDs  161 (277)
+                      |||-+|.+
+T Consensus       117 NlHGLWe~  124 (132)
+T c2amuA_         117 NIHGLWES  124 (132)
+T ss_dssp             TTTEEEEE
+T ss_pred             CCCCCCCC
+T ss_conf             14652446
+
+

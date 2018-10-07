@@ -1,0 +1,14 @@
+36 d1lp3a_ Probab=6.23    E-value=2.6e+02  Score=10.60  Aligned_columns=18  Identities=22%
+
+Q ss_pred             CCCCCCCCCCCCCCCCCH
+Q ss_conf             111134357887678884
+Q tbn1_____        56 TSPLHFIDTPDKACNFDY   73 (277)
+Q Consensus        56 ~~~wHYvd~p~~~~~~~~   73 (277)
+                      +-||+|+|.....|+|.+
+T Consensus        60 ~TPW~Y~DfNa~~~HFSP   77 (519)
+T d1lp3a_          60 STPWGYFDFNRFHCHFSP   77 (519)
+T ss_dssp             EEEEEEECCCBGGGTCCH
+T ss_pred             ECCCEEEEEEEEECCCCH
+T ss_conf             488101530002022177
+
+

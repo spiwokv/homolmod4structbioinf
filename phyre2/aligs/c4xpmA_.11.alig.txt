@@ -1,0 +1,14 @@
+11 c4xpmA_ Probab=40.37   E-value=25  Score=16.41  Aligned_columns=20  Identities=30%
+
+Q ss_pred             HHHHHHHHCCCCCCCCCCCC
+Q ss_conf             99999983143346760059
+Q tbn1_____       258 AMLLNNVFGASQQEDSVVAT  277 (277)
+Q Consensus       258 A~~Ln~i~~~~~~~~~~~~~  277 (277)
+                      ..+||+||++++.+.+.-.|
+T Consensus        17 snilneifsqsqvnkpgplt   36 (39)
+T c4xpmA_          17 SNILNEIFSQSQVNKPGPLT   36 (39)
+T ss_dssp             HHHHHHHHHHTCCCCSSCSS
+T ss_pred             HHHHHHHHHHHHCCCCCCCC
+T ss_conf             99999997554147888833
+
+

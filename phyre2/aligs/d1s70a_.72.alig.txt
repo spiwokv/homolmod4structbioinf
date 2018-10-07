@@ -1,0 +1,14 @@
+72 d1s70a_ Probab=3.63    E-value=3.3e+02  Score=10.00  Aligned_columns=8  Identities=50%
+
+Q ss_pred             HHHHCCCC
+Q ss_conf             86405234
+Q tbn1_____       121 SHFMGDIH  128 (277)
+Q Consensus       121 vHlvGDiH  128 (277)
+                      +..|||+|
+T Consensus        59 v~VvGDiH   66 (309)
+T d1s70a_          59 LKICGDIH   66 (309)
+T ss_dssp             EEEECBCT
+T ss_pred             EEEEECCC
+T ss_conf             89994688
+
+

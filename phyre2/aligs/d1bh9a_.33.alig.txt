@@ -1,0 +1,14 @@
+33 d1bh9a_ Probab=6.38    E-value=2.6e+02  Score=10.65  Aligned_columns=16  Identities=25%
+
+Q ss_pred             HHHHHHHHCCCCCCCC
+Q ss_conf             9998864052347521
+Q tbn1_____       117 LLFLSHFMGDIHQPMH  132 (277)
+Q Consensus       117 l~~LvHlvGDiHQPLH  132 (277)
+                      ++-+.+-.||..+|+.
+T Consensus         6 i~~mmy~~GD~~~P~~   21 (45)
+T d1bh9a_           6 LRCMMYGFGDDQNPYT   21 (45)
+T ss_dssp             HHHHHHHTTSCSSCCH
+T ss_pred             HHHHHHHHCCCCCCCH
+T ss_conf             9999999498999857
+
+

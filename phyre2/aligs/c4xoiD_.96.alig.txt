@@ -1,0 +1,14 @@
+96 c4xoiD_ Probab=3.16    E-value=5.3e+02  Score=8.84  Aligned_columns=19  Identities=5%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHH
+Q ss_conf             9999999999999999998
+Q tbn1_____       246 VMKRVAQGGIRLAMLLNNV  264 (277)
+Q Consensus       246 ~~~ql~~AG~RLA~~Ln~i  264 (277)
+                      +|+.|..|..|..+.|+++
+T Consensus        45 AeR~LLia~~Rr~A~l~El   63 (208)
+T c4xoiD_          45 AERLLLIATGKRTLLIDEL   63 (208)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+T ss_conf             9999999988999999999
+
+

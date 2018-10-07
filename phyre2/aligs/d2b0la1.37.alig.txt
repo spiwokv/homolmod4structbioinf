@@ -1,0 +1,14 @@
+37 d2b0la1 Probab=5.98    E-value=2.7e+02  Score=10.52  Aligned_columns=30  Identities=13%
+
+Q ss_pred             HHHHHHHHHHCCHHHHHHHHHHHCCCCCCH
+Q ss_conf             999999997489999999999715687541
+Q tbn1_____         7 VMTCRIAQGLLNDEAAHAVKMLLPEYVNGD   36 (277)
+Q Consensus         7 ~~Va~iA~~~L~~~~~~~i~~iL~~~~~~~   36 (277)
+                      +.+..+|...|+-..++.++.|+....+..
+T Consensus         3 ~~~v~~A~~sLSySEleAi~~I~~el~~~E   32 (91)
+T d2b0la1           3 KAVVQMAISSLSYSELEAIEHIFEELDGNE   32 (91)
+T ss_dssp             HHHHHHHHHTSCHHHHHHHHHHTTSSBTTE
+T ss_pred             HHHHHHHHHHCCHHHHHHHHHHHHHCCCCC
+T ss_conf             689999995308889999999999738767
+
+

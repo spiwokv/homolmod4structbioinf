@@ -1,0 +1,14 @@
+55 c1ujlA_ Probab=4.61    E-value=1.2e+02  Score=12.47  Aligned_columns=27  Identities=30%
+
+Q ss_pred             HHHHHHCCCCCCCCCCCCCCCCCCEEEEEE
+Q ss_conf             988640523475213566578884599850
+Q tbn1_____       119 FLSHFMGDIHQPMHVGFTSDAGGNSIDLRW  148 (277)
+Q Consensus       119 ~LvHlvGDiHQPLH~~~~~D~GGN~i~v~~  148 (277)
+                      ||=+|--++|||-.   ..+-||-+|+-+|
+T Consensus        16 WLd~La~~~~k~Y~---~~~~~GPSik~KY   42 (42)
+T c1ujlA_          16 WLHNLGDQIGKPYN---SSGLGGPSIKDKY   42 (42)
+T ss_dssp             THHHHHHHHCCSSC---CCCCSCHHHHHHC
+T ss_pred             HHHHHHHHHCCCCC---CCCCCCCCCCCCC
+T ss_conf             27899998476346---8788888421369
+
+

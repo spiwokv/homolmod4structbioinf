@@ -1,0 +1,55 @@
+07/10/2018 15:47:43 : INFO  : Run start: Sun Oct  7 15:47:43 BST 2018
+07/10/2018 15:47:43 : INFO  : Initialised job
+07/10/2018 15:47:43 : INFO  : Initialised job:
+Sequence
+>tbn1_____
+WSKEGHVMTCRIAQGLLNDEAAHAVKMLLPEYVNGDLSALCVWPDQVRHWYKYKWTSPLH
+FIDTPDKACNFDYERDCHDQHGVKDMCVAGAIQNFTTQLSHYREGTSDRRYNMTEALLFL
+SHFMGDIHQPMHVGFTSDAGGNSIDLRWFRHKSNLHHVWDREIILTAAKDYYAKDINLLE
+EDIEGNFTDGIWSDDLASWRECGNVFSCVNKFATESINIACKWGYKGVEAGETLSDDYFN
+SRLPIVMKRVAQGGIRLAMLLNNVFGASQQEDSVVAT
+
+07/10/2018 15:47:43 : INFO  : Checked sequence
+07/10/2018 15:47:43 : INFO  : Finding homologues with PSI-BLAST
+07/10/2018 15:47:43 : INFO  : PSI-BLAST 3 iterations
+07/10/2018 15:49:01 : INFO  : PSI-BLAST 5 iterations
+07/10/2018 15:50:18 : INFO  : Finished PSI-BLAST
+07/10/2018 15:50:18 : INFO  : Running Buildali to generate a3m file
+07/10/2018 15:53:52 : INFO  : Converting to HMM
+07/10/2018 15:53:53 : INFO  : Calibrating HMM
+07/10/2018 15:53:59 : INFO  : Searching HMM database
+07/10/2018 16:01:57 : INFO  : Finished buildali
+07/10/2018 16:01:57 : INFO  : Predicting secondary structure
+07/10/2018 16:01:57 : INFO  : Predicted secondary structure (PSI-Pred)
+07/10/2018 16:01:57 : INFO  : Predicting Disordered regions
+07/10/2018 16:01:57 : INFO  : Predicted Disorder (Disopred)
+07/10/2018 16:01:57 : INFO  : Running memsat_svm check
+07/10/2018 16:01:57 : INFO  : Exitval for mkdir: 
+07/10/2018 16:02:50 : INFO  : Globular protein
+07/10/2018 16:02:50 : INFO  : Predicted Transmembrane (memsat_svm) ID '888c645d580a078d'
+07/10/2018 16:02:50 : INFO  : Initialising fold library search
+07/10/2018 16:02:50 : INFO  : Initialised search input
+07/10/2018 16:02:50 : INFO  : Building Ensemble models
+07/10/2018 16:02:50 : INFO  : Building c3sngA_.1.pdb
+07/10/2018 16:02:50 : INFO  : Building c3w52A_.2.pdb
+07/10/2018 16:02:51 : INFO  : Building d1ak0a_.3.pdb
+07/10/2018 16:02:51 : INFO  : Building c5fbfA_.4.pdb
+07/10/2018 16:02:51 : INFO  : Building d1ah7a_.5.pdb
+07/10/2018 16:02:52 : INFO  : Building d1khoa1.6.pdb
+07/10/2018 16:02:52 : INFO  : Building d1olpa1.7.pdb
+07/10/2018 16:02:52 : INFO  : Building c1olpB_.8.pdb
+07/10/2018 16:02:53 : INFO  : Building c1gygA_.9.pdb
+07/10/2018 16:02:54 : INFO  : Building d1ca1a1.10.pdb
+07/10/2018 16:02:54 : INFO  : Building c4xpmA_.11.pdb
+07/10/2018 16:02:54 : INFO  : Building c2gq1A_.12.pdb
+07/10/2018 16:02:55 : INFO  : Building c2rhsB_.13.pdb
+07/10/2018 16:02:55 : INFO  : Building c3d0wD_.14.pdb
+07/10/2018 16:02:56 : INFO  : Building c1fpvA_.15.pdb
+07/10/2018 16:02:56 : INFO  : Building c5fugI_.16.pdb
+07/10/2018 16:02:56 : INFO  : Building d2qzga1.17.pdb
+07/10/2018 16:02:57 : INFO  : Building c2eouA_.18.pdb
+07/10/2018 16:02:57 : INFO  : Building c2g8gA_.19.pdb
+07/10/2018 16:02:57 : INFO  : Building c4p71B_.20.pdb
+07/10/2018 16:02:58 : INFO  : 
+07/10/2018 16:02:58 : WARN  : Set python to /bmm/www/servers/phyre2/bin//python2.7/2.7.2/bin/python2.7
+07/10/2018 16:25:51 : INFO  : Run end  : Sun Oct  7 16:25:51 BST 2018

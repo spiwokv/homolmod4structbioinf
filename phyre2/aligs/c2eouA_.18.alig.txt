@@ -1,0 +1,14 @@
+18 c2eouA_ Probab=9.56    E-value=1.2e+02  Score=12.51  Aligned_columns=14  Identities=36%
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q ss_conf             47521356657888
+Q tbn1_____       128 HQPMHVGFTSDAGG  141 (277)
+Q Consensus       128 HQPLH~~~~~D~GG  141 (277)
+                      ||.||++..+.-.|
+T Consensus        31 hqalhagesgpssg   44 (44)
+T c2eouA_          31 HQALHAGESGPSSG   44 (44)
+T ss_dssp             HHHHHTTSCCCCCC
+T ss_pred             HHHHHCCCCCCCCC
+T ss_conf             56542045487789
+
+

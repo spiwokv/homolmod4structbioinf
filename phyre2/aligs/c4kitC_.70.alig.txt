@@ -1,0 +1,14 @@
+70 c4kitC_ Probab=3.68    E-value=4.4e+02  Score=9.30  Aligned_columns=10  Identities=40%
+
+Q ss_pred             HHCCCCCCCC
+Q ss_conf             4052347521
+Q tbn1_____       123 FMGDIHQPMH  132 (277)
+Q Consensus       123 lvGDiHQPLH  132 (277)
+                      |.-|+|-|+|
+T Consensus       238 fy~~~hrp~H  247 (269)
+T c4kitC_         238 FYHEVHRPSH  247 (269)
+T ss_dssp             TTCGGGCHHH
+T ss_pred             HHHHCCCHHH
+T ss_conf             4101016057
+
+

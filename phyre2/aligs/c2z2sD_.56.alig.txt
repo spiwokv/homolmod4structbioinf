@@ -1,0 +1,14 @@
+56 c2z2sD_ Probab=4.59    E-value=3.3e+02  Score=9.98  Aligned_columns=6  Identities=67%
+
+Q ss_pred             CCCCCC
+Q ss_conf             523475
+Q tbn1_____       125 GDIHQP  130 (277)
+Q Consensus       125 GDiHQP  130 (277)
+                      ||.|||
+T Consensus       149 Gd~H~p  154 (169)
+T c2z2sD_         149 GDIEIP  154 (169)
+T ss_dssp             TCEESC
+T ss_pred             CCEEEE
+T ss_conf             976545
+
+

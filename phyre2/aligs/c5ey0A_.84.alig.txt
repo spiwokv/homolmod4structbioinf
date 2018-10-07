@@ -1,0 +1,14 @@
+84 c5ey0A_ Probab=3.45    E-value=4.8e+02  Score=9.10  Aligned_columns=30  Identities=13%
+
+Q ss_pred             HHHHHHHHHHCCHHHHHHHHHHHCCCCCCH
+Q ss_conf             999999997489999999999715687541
+Q tbn1_____         7 VMTCRIAQGLLNDEAAHAVKMLLPEYVNGD   36 (277)
+Q Consensus         7 ~~Va~iA~~~L~~~~~~~i~~iL~~~~~~~   36 (277)
+                      +.+..+|.+-|+-..+++++.|++...+..
+T Consensus       169 ~~~~~~a~~~ls~se~~a~~~i~~~~~~~e  198 (253)
+T c5ey0A_         169 KAAITMAINSLSYSEKEAIEHIFEELGGTE  198 (253)
+T ss_dssp             HHHHHHHHTTSCHHHHHHHHHHHHHTCSSE
+T ss_pred             HHHHHHHHHHHCHHHHHHHHHHHHHCCCCC
+T ss_conf             999999996308889999999999729877
+
+

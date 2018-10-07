@@ -1,0 +1,14 @@
+26 d1m5ha1 Probab=7.29    E-value=2.3e+02  Score=10.93  Aligned_columns=21  Identities=29%
+
+Q ss_pred             HHHHCCCCCCCCCCCCCCCCCCEEEE
+Q ss_conf             86405234752135665788845998
+Q tbn1_____       121 SHFMGDIHQPMHVGFTSDAGGNSIDL  146 (277)
+Q Consensus       121 vHlvGDiHQPLH~~~~~D~GGN~i~v  146 (277)
+                      ++++||=+|+.+     ++||.+..+
+T Consensus       121 l~~fGDGye~~~-----e~~GR~~w~  141 (145)
+T d1m5ha1         121 LKFFADGYQKEV-----EVGGRKCWA  141 (145)
+T ss_dssp             HGGGGTTCCEEE-----EETTEEEEE
+T ss_pred             EEECCCCCCCHH-----HCCCEEEEE
+T ss_conf             021037531011-----208878998
+
+

@@ -1,0 +1,38 @@
+9 c1gygA_ Probab=97.26   E-value=0.002  Score=39.93  Aligned_columns=117  Identities=21%
+
+Q ss_pred             CCHHHHHHHHHHHHHCCHH-------HHHHHHHHHCCCCCCHHHHHHCCHHHHCCCCCCC
+Q ss_conf             7347899999999748999-------9999999715687541999720746430555784
+Q tbn1_____         2 SKEGHVMTCRIAQGLLNDE-------AAHAVKMLLPEYVNGDLSALCVWPDQVRHWYKYK   54 (277)
+Q Consensus         2 g~~GH~~Va~iA~~~L~~~-------~~~~i~~iL~~~~~~~l~~~a~WaD~ir~~~~~~   54 (277)
+                      |..-|..|..-|.+-|.-.       ..+.--.+|. .....|..-+.|||  ...+.+.
+T Consensus         7 g~~TH~~I~~qA~~IL~nD~~~~~~~~~~~~~~~L~-~y~~~~~~G~~~aD--~~~k~~~   63 (370)
+T c1gygA_           7 GTGTHAMIVTQGVSILENDLSKNEPESVRKNLEILK-ENMHELQLGSTYPD--YDKNAYD   63 (370)
+T ss_dssp             SCSHHHHHHHHHHHHHHHHCCTTSCHHHHHHHHHHH-HTHHHHHHHHHGGG--TCSCCCC
+T ss_pred             CCCHHHHHHHHHHHHHHCCCCCCHHHHHHHHHHHHH-HHHHHHHHCCCCCC--CCCCCCC
+T ss_conf             760899999999998510433332478888899999-99998862162755--5654321
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCHHHCCCCCCCCC--------CCCHHHHHHHHHHHHHHCCCCC
+Q ss_conf             211113435788767888443033336877--------7618999999999996245774
+Q tbn1_____        55 WTSPLHFIDTPDKACNFDYERDCHDQHGVK--------DMCVAGAIQNFTTQLSHYREGT  106 (277)
+Q Consensus        55 ~~~~wHYvd~p~~~~~~~~~~~~~~~~~~~--------~~~v~~ai~~~~~~L~~~~~~~  106 (277)
+                       +-.-||         |++.....-.....        ..-.....+.+...+.......
+T Consensus        64 -~f~~HF---------Ydpdt~~~~~g~~~~~~~~~~~~ta~~~~~ky~~~A~~~~~~g~  113 (370)
+T c1gygA_          64 -LYQDHF---------WDPDTDNNFSKDNSWYLAYSIPDTGESQIRKFSALARYEWQRGN  113 (370)
+T ss_dssp             -SCCCCC---------CCTTHHHHHHSSSSSCTTBCBCCCHHHHHHHHHHHHHHHHHTTC
+T ss_pred             -CCCCCC---------CCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHCCC
+T ss_conf             -000111---------15667875357655555555560179999999999999875174
+
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHCCCCCCCCCC
+Q ss_conf             4105689999999886405234752135
+Q tbn1_____       107 SDRRYNMTEALLFLSHFMGDIHQPMHVG  134 (277)
+Q Consensus       107 ~~~~~~~a~al~~LvHlvGDiHQPLH~~  134 (277)
+                      -...+   +.|-...|+++|+.||+|++
+T Consensus       114 ~~~a~---fyLG~a~Hy~~D~~~P~H~~  138 (370)
+T c1gygA_         114 YKQAT---FYLGEAMHYFGDIDTPYHPA  138 (370)
+T ss_dssp             HHHHH---HHHHHHHHHHHHHTSCCCCS
+T ss_pred             HHHHH---HHHHHHHHHHHHCCCCCCCC
+T ss_conf             88999---99878888864138872667
+
+

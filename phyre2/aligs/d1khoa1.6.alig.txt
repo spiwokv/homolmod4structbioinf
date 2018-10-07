@@ -1,0 +1,62 @@
+6 d1khoa1 Probab=98.46   E-value=7e-05  Score=48.33  Aligned_columns=232  Identities=17%
+
+Q ss_pred             CCHHHHHHHHHHHHHCCHH-------HHHHHHHHHCCCCCCHHHHHHCCHHHHCCCCCCC
+Q ss_conf             7347899999999748999-------9999999715687541999720746430555784
+Q tbn1_____         2 SKEGHVMTCRIAQGLLNDE-------AAHAVKMLLPEYVNGDLSALCVWPDQVRHWYKYK   54 (277)
+Q Consensus         2 g~~GH~~Va~iA~~~L~~~-------~~~~i~~iL~~~~~~~l~~~a~WaD~ir~~~~~~   54 (277)
+                      |..-|..|+.-|...|...       ..+.-.++|... ...|-.-+.|||..+   ...
+T Consensus         7 ~~~TH~~I~~qAl~iL~nD~~~~~~~l~~~~~~~L~~~-~~~i~~G~~~pD~~~---~~~   62 (249)
+T d1khoa1           7 GTGTHAMIATQGVTILENDLSSNEPEVIRNNLEILKQN-MHDLQLGSTYPDYDK---NAY   62 (249)
+T ss_dssp             TBSHHHHHHHHHHHHHHHHCCTTSCHHHHHHHHHHHHT-HHHHHHHHHGGGTCC---CSC
+T ss_pred             CCCHHHHHHHHHHHHHHCCCCCCHHHHHHHHHHHHHHH-HHHHHCCCCCCCCCC---CCC
+T ss_conf             77379999999999951143210246777789999999-999970380001455---522
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCHHHCCCCCCCCCCCCHHHHHHHHHHHHHHCCCCCCCHHHHHH
+Q ss_conf             211113435788767888443033336877761899999999999624577441056899
+Q tbn1_____        55 WTSPLHFIDTPDKACNFDYERDCHDQHGVKDMCVAGAIQNFTTQLSHYREGTSDRRYNMT  114 (277)
+Q Consensus        55 ~~~~wHYvd~p~~~~~~~~~~~~~~~~~~~~~~v~~ai~~~~~~L~~~~~~~~~~~~~~a  114 (277)
+                      ....+||.|. +...++..+.-..-....+..-...+.+.+...+.......-...   .
+T Consensus        63 ~~~~~Hfy~p-d~~~~~~~~~~~~~~~~~~~~A~~~~~kyf~~A~~~~~~g~~~~A---~  118 (249)
+T d1khoa1          63 DLYQDHFWDP-DTDNNFTKDSKWYLSYSIPDTAESQIRKFSALARYEWKRGNYKQA---T  118 (249)
+T ss_dssp             TTCGGGCCCT-TTSSSCCCCCGGGGTSCCCCCHHHHHHHHHHHHHHHHHTTCHHHH---H
+T ss_pred             CCCCCCCCCC-CCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHCCCHHHH---H
+T ss_conf             2342565255-467875443223333466855899999999999999971899999---9
+
+
+Q ss_pred             HHHHHHHHHHCCCCCCCCCCCCCCCCCCEEEEEECCCCCHHHHHHHHHHHHHHCCCCCCC
+Q ss_conf             999998864052347521356657888459985089877068864202246632574433
+Q tbn1_____       115 EALLFLSHFMGDIHQPMHVGFTSDAGGNSIDLRWFRHKSNLHHVWDREIILTAAKDYYAK  174 (277)
+Q Consensus       115 ~al~~LvHlvGDiHQPLH~~~~~D~GGN~i~v~~~~~~~nLH~~WDs~l~~~~~~~~~~~  174 (277)
+                      +.|-..+|+++|+.||+|++.-.            ....+-|+-.+ .-+.....++...
+T Consensus       119 ~~LG~a~Hy~~D~~~P~H~~~~t------------~~~~~~H~~yE-~~v~~~~~~Yk~~  165 (249)
+T d1khoa1         119 FYLGEAMHYFGDADTPYHAANVT------------AVDSPGHVKFE-TFAEDRKDQYKIN  165 (249)
+T ss_dssp             HHHHHHHHHHHHHTSHHHHTTCC------------TTTCTHHHHHH-HHHHHTGGGGCCS
+T ss_pred             HHHHHHHHHHHHCCCCCCCCCCC------------CCCCHHHHHHH-HHHHHHHHHHHHH
+T ss_conf             99999999983048998876665------------54523489999-9998655530001
+
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCHHHHHHHHHHHHHHHHCCCCCCCCCC
+Q ss_conf             147888777787633332001455420345546799999989998865521688888868
+Q tbn1_____       175 DINLLEEDIEGNFTDGIWSDDLASWRECGNVFSCVNKFATESINIACKWGYKGVEAGETL  234 (277)
+Q Consensus       175 ~~~~~~~~~~~~~~~~~~~~~~~~w~~~~~~~~~~~~wa~Es~~la~~~~y~~~~~~~~l  234 (277)
+                      ............  +......+..|         ..+++..+..++++..|+....... 
+T Consensus       166 ~~~~~~n~~~~~--~~~~~~~~~~~---------~~e~i~~~A~~a~~~y~~~~~~~~~-  213 (249)
+T d1khoa1         166 TTGSKTNDAFYS--NILTNEDFNSW---------SKEFARSFAKTAKDLYYSHANMSCS-  213 (249)
+T ss_dssp             CCSCCTTSHHHH--HHHSCSCHHHH---------HHHHHHHHHHHHHHHHHHTTSTTSC-
+T ss_pred             HCCCCCCCCCCC--CCCCCCCHHHH---------HHHHHHHHHHHHHHHHHHHHCCCCC-
+T ss_conf             102334322123--32245542456---------9999754469999866665304576-
+
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCC
+Q ss_conf             989999999999999999999999999998314334
+Q tbn1_____       235 SDDYFNSRLPIVMKRVAQGGIRLAMLLNNVFGASQQ  270 (277)
+Q Consensus       235 s~~Y~~~~~~v~~~ql~~AG~RLA~~Ln~i~~~~~~  270 (277)
+                          ......++..+|..|=..+|..+-..|.....
+T Consensus       214 ----~~~~~~va~~~l~~Aq~~TAg~~~~F~~~vs~  245 (249)
+T d1khoa1         214 ----WDEWDYAAKVALANSQKGTSGYIYRFLHDVSD  245 (249)
+T ss_dssp             ----HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHS
+T ss_pred             ----CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCC
+T ss_conf             ----02399999999999999999999999976513
+
+

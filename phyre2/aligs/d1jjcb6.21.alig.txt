@@ -1,0 +1,14 @@
+21 d1jjcb6 Probab=7.98    E-value=2.1e+02  Score=11.12  Aligned_columns=26  Identities=35%
+
+Q ss_pred             CCCCCCCCCCCCCCEEEEEECCCCCHH
+Q ss_conf             752135665788845998508987706
+Q tbn1_____       129 QPMHVGFTSDAGGNSIDLRWFRHKSNL  155 (277)
+Q Consensus       129 QPLH~~~~~D~GGN~i~v~~~~~~~nL  155 (277)
+                      ||+|+......+|+ +.|+.......+
+T Consensus        68 qP~hafD~dki~g~-i~vr~a~~gE~~   93 (209)
+T d1jjcb6          68 QPMHAFDLRFVGEG-IAVRRAREGERL   93 (209)
+T ss_dssp             CCEEEEEGGGTBTE-EEEEECCTTCEE
+T ss_pred             CCCCEEEHHHCCCC-EEEEECCCCCEE
+T ss_conf             67314625650997-899987999889
+
+

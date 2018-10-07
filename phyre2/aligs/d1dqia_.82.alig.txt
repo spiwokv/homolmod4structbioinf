@@ -1,0 +1,14 @@
+82 d1dqia_ Probab=3.49    E-value=2.6e+02  Score=10.57  Aligned_columns=8  Identities=38%
+
+Q ss_pred             HHHHHHHH
+Q ss_conf             06886420
+Q tbn1_____       154 NLHHVWDR  161 (277)
+Q Consensus       154 nLH~~WDs  161 (277)
+                      |||-+|.+
+T Consensus       112 NlHGLW~~  119 (124)
+T d1dqia_         112 NIHGLWEN  119 (124)
+T ss_dssp             TTTEEEEE
+T ss_pred             CCCCCEEE
+T ss_conf             36652111
+
+

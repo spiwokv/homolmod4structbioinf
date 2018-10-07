@@ -1,0 +1,124 @@
+/bmm/www/servers/phyre2/bin/poing
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3sngA_.1.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3w52A_.2.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ak0a_.3.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c5fbfA_.4.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ah7a_.5.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1khoa1.6.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1olpa1.7.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1olpB_.8.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1gygA_.9.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ca1a1.10.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c4xpmA_.11.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2gq1A_.12.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2rhsB_.13.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3d0wD_.14.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1fpvA_.15.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c5fugI_.16.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d2qzga1.17.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2eouA_.18.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2g8gA_.19.pdb
+file: /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c4p71B_.20.pdb
+WSKEGHVMTCRIAQGLLNDEAAHAVKMLLPEYVNGDLSALCVWPDQVRHWYKYKWTSPLHFIDTPDKACNFDYERDCHDQHGVKDMCVAGAIQNFTTQLSHYREGTSDRRYNMTEALLFL
+CCCHHHHHHHHHHHHHCCHHHHHHHHHHCCCCCCCCHHHHHCCHHHHCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHCCCCCCCCHHHHHHHHHHHH
+-----------------------------------------------------------------------------------------++++++++++++++++++++-----++++++  HHscore 0.169, sequence id 8%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2gq1A_.12.pdb
+
+--------------------------------------------------------------------------------++++++++++++++++++++++++++++++---+++++++  HHscore 0.096, sequence id 18%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d2qzga1.17.pdb
+
+------------------------------------------------------------------------------------------------------------------------  HHscore 0.404, sequence id 30%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c4xpmA_.11.pdb
+
+-+++++++++++++++++++++++++++++-++++++++++++++--+++++++-++++++---------+++++++++++++++++++++++++++++++++++++++++---++++++  HHscore 0.973, sequence id 21%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1gygA_.9.pdb
+
+----------------------------------------------------------------------------------------------------------------------++  HHscore 0.090, sequence id 24%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c4p71B_.20.pdb
+----------------------------------------------------------------------------------------------------------------------++  HHscore 0.153, sequence id 21%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2rhsB_.13.pdb
+
+------------------------------------------------------------------------------------------------------------------------  HHscore 0.142, sequence id 12%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3d0wD_.14.pdb
+
+-------------------------------------------------------++++++++++++++++++-----------------------------------------------  HHscore 0.104, sequence id 17%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1fpvA_.15.pdb
+-------------------------------------------------------++++++++++++++++++-----------------------------------------------  HHscore 0.095, sequence id 22%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2g8gA_.19.pdb
+
+------------------------------------------------------------------------------------------------------------------------  HHscore 0.096, sequence id 45%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c5fugI_.16.pdb
+
+------------------------------------------------------------------------------------------------------------------------  HHscore 0.096, sequence id 36%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2eouA_.18.pdb
+
+-+++++++++++++++++++++++++++++--++++++++++++++++---+++++++++++++-++++++++++++++++++++++++++++++++++++++++++++++---++++++  HHscore 0.970, sequence id 18%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ca1a1.10.pdb
+-+++++++++++++++++++++++++++++++-+++++++++++++++---+++++++++++++-+++++++++++++++++++++++++++++++++++++++++++++---+++++++  HHscore 0.985, sequence id 17%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1khoa1.6.pdb
+-+++++++++++++++++++++++++++++++-++++++++++++--+++++++++-+++++++-+++++++++++++++++++++++++++++++++++++++++++++---+++++++  HHscore 0.984, sequence id 19%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1olpa1.7.pdb
++++++++++++++++++++++++++++++++++++++++++++++++++--++++++++++++++-++++++++++++++++++++++++++++++++++++++------++++++++++  HHscore 1.000, sequence id 54%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3w52A_.2.pdb
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  HHscore 1.000, sequence id 100%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3sngA_.1.pdb
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----+++++++++++++++++++++++++----+++++++  HHscore 1.000, sequence id 29%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ak0a_.3.pdb
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----+++++++++++++++++++++++++-----++++++  HHscore 1.000, sequence id 29%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c5fbfA_.4.pdb
+++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++++++-+++++++++++++++---------++++++++++++++++++++++---+++++++  HHscore 1.000, sequence id 15%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ah7a_.5.pdb
+-+++++++++++++++++++++++++++++-+++++++++++++++++++++---+++++++++-+++++++++++++++++++++++++++++++++++++++++++++---+++++++  HHscore 0.974, sequence id 18%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1olpB_.8.pdb
+
+SHFMGDIHQPMHVGFTSDAGGNSIDLRWFRHKSNLHHVWDREIILTAAKDYYAKDINLLEEDIEGNFTDGIWSDDLASWRECGNVFSCVNKFATESINIACKWGYKGVEAGETLSDDYFN
+HHHHHHHCCCCCCCCCCCCCCCEEEEEECCCCCHHHHHHHHHHHHHHCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHCCCCCCCCCCCHHHHH
++++++++++++-------------------------------------------------------------------------------------------------------------  HHscore 0.169, sequence id 8%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2gq1A_.12.pdb
+
+++++++++-++++-----------------------------------------------------------------------------------------------------------  HHscore 0.096, sequence id 18%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d2qzga1.17.pdb
+
+------------------------------------------------------------------------------------------------------------------------  HHscore 0.404, sequence id 30%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c4xpmA_.11.pdb
+
+++++++++++++++----------------------------------------------------------------------------------------------------------  HHscore 0.973, sequence id 21%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1gygA_.9.pdb
+
++++++---++++++++++++++-++++++++++++-------------------------------------------------------------------------------------  HHscore 0.090, sequence id 24%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c4p71B_.20.pdb
++++++---+++++++++++++++++++++++++++-------------------------------------------------------------------------------------  HHscore 0.153, sequence id 21%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2rhsB_.13.pdb
+
+----------------------------------------------------------------------------------------------------------------------++  HHscore 0.142, sequence id 12%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3d0wD_.14.pdb
+
+------------------------------------------------------------------------------------------------------------------------  HHscore 0.104, sequence id 17%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1fpvA_.15.pdb
+------------------------------------------------------------------------------------------------------------------------  HHscore 0.095, sequence id 22%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2g8gA_.19.pdb
+
+------------------------------------------------------------------------------------------------------------------------  HHscore 0.096, sequence id 45%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c5fugI_.16.pdb
+
+-------++++++++++++++---------------------------------------------------------------------------------------------------  HHscore 0.096, sequence id 36%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2eouA_.18.pdb
+
++++++++++++++++------------++++++++++++++-------------+++++++++++++++++++++++++++++++---++++++++++++++++++++++++++++++-+  HHscore 0.970, sequence id 18%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ca1a1.10.pdb
++++++++++++++++++------------+++++++++++-+++++++++++++++++++++++++--+++++++++++---------+++++++++++++++++++++++++-----++  HHscore 0.985, sequence id 17%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1khoa1.6.pdb
++++++++++++++++------------+++++++++++++-+++++++++++++++++++++++++--+++++++++++---------+++++++++++++++++++++++++++-----  HHscore 0.984, sequence id 19%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1olpa1.7.pdb
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-++++++++++++++++++++++++++++++++++++++++++++++++  HHscore 1.000, sequence id 54%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3w52A_.2.pdb
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  HHscore 1.000, sequence id 100%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3sngA_.1.pdb
+++++++++++++++-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  HHscore 1.000, sequence id 29%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ak0a_.3.pdb
+++++++++++++++-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  HHscore 1.000, sequence id 29%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c5fbfA_.4.pdb
+++++++++++++++----------+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--------------+++++++++++++++++++++  HHscore 1.000, sequence id 15%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ah7a_.5.pdb
++++++++++++++-------++++++++++-----+++++-+++++++++++++++++++++--+++++++++++++++---------++++++++++++++++++++++++++++++++  HHscore 0.974, sequence id 18%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1olpB_.8.pdb
+
+SRLPIVMKRVAQGGIRLAMLLNNVFGASQQEDSVVAT
+HHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCC
+-------------------------------------  HHscore 0.169, sequence id 8%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2gq1A_.12.pdb
+
+-------------------------------------  HHscore 0.096, sequence id 18%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d2qzga1.17.pdb
+
+-----------------++++++++++++++++++++  HHscore 0.404, sequence id 30%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c4xpmA_.11.pdb
+
+-------------------------------------  HHscore 0.973, sequence id 21%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1gygA_.9.pdb
+
+-------------------------------------  HHscore 0.090, sequence id 24%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c4p71B_.20.pdb
+-------------------------------------  HHscore 0.153, sequence id 21%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2rhsB_.13.pdb
+
+++++++++++++++++++++++++++++++++-----  HHscore 0.142, sequence id 12%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3d0wD_.14.pdb
+
+-------------------------------------  HHscore 0.104, sequence id 17%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1fpvA_.15.pdb
+-------------------------------------  HHscore 0.095, sequence id 22%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2g8gA_.19.pdb
+
+------------+++++++++++--------------  HHscore 0.096, sequence id 45%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c5fugI_.16.pdb
+
+-------------------------------------  HHscore 0.096, sequence id 36%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c2eouA_.18.pdb
+
++++++++++++++++++++++++++------------  HHscore 0.970, sequence id 18%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ca1a1.10.pdb
+++++++++++++++++++++++++++++++-------  HHscore 0.985, sequence id 17%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1khoa1.6.pdb
+++++++++++++++++++++++++++++++++++---  HHscore 0.984, sequence id 19%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1olpa1.7.pdb
+++++++++++++++++++++++++++-----------  HHscore 1.000, sequence id 54%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3w52A_.2.pdb
++++++++++++++++++++++++++++----------  HHscore 1.000, sequence id 100%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c3sngA_.1.pdb
++++++++++++++++++++++++++------------  HHscore 1.000, sequence id 29%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ak0a_.3.pdb
+++++++++++++++++++++++++++++---------  HHscore 1.000, sequence id 29%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c5fbfA_.4.pdb
++++++++++++++++++++++++++++----------  HHscore 1.000, sequence id 15%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/d1ah7a_.5.pdb
++++++++++++++++----------------------  HHscore 0.974, sequence id 18%  /bmm/www/servers/phyre2/public_html/phyre2_output/888c645d580a078d/c1olpB_.8.pdb
+
+98% of protein confidently modelled...
+More than 50% of protein confidently modelled - using mergeProteins.py
+Protein length: 277  of which strand: 6
+Estimated time per simulation: 88 minutes
+Number of repetitions of folding: 5
+Estimated total CPU time: 7 hours
+Estimated wallclock time on 100 processors: 0 hours

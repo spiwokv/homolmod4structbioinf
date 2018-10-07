@@ -1,0 +1,14 @@
+13 c2rhsB_ Probab=15.33   E-value=1.2e+02  Score=12.57  Aligned_columns=34  Identities=21%
+
+Q ss_pred             HHHHHHCCCCCCCCCCCCCCCCCCEEEEEECCCCCHH
+Q ss_conf             9886405234752135665788845998508987706
+Q tbn1_____       119 FLSHFMGDIHQPMHVGFTSDAGGNSIDLRWFRHKSNL  155 (277)
+Q Consensus       119 ~LvHlvGDiHQPLH~~~~~D~GGN~i~v~~~~~~~nL  155 (277)
+                      |+.+-.|   ||||+....-.-|+.+.|+.......+
+T Consensus       252 yvmle~G---qPlHafD~dki~~~~i~vr~a~~~e~~  285 (786)
+T c2rhsB_         252 YVLLEYG---QPLHMFDQDHIGSKEIVVRQAKDEETM  285 (786)
+T ss_dssp             HHHHHHS---CCEEEEEGGGSSSSEEEEEECCTTEEE
+T ss_pred             HHHHHHC---CCCCCEEHHHCCCCCEEEEECCCCCEE
+T ss_conf             9999968---202604334438871899745888768
+
+

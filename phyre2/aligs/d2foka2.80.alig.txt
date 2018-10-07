@@ -1,0 +1,14 @@
+80 d2foka2 Probab=3.56    E-value=4.6e+02  Score=9.20  Aligned_columns=40  Identities=8%
+
+Q ss_pred             HHHHHHHHHHHCCHHHHHHHHHHHCCCCCCHHHHHHCCHHHH
+Q ss_conf             899999999748999999999971568754199972074643
+Q tbn1_____         6 HVMTCRIAQGLLNDEAAHAVKMLLPEYVNGDLSALCVWPDQV   47 (277)
+Q Consensus         6 H~~Va~iA~~~L~~~~~~~i~~iL~~~~~~~l~~~a~WaD~i   47 (277)
+                      |+++--+|..  .+..+.+|+.=....++.++-.+|.|.+.+
+T Consensus        55 ~i~l~~La~a--~~~~k~kIksn~EgtSDKYaR~i~~wL~~~   94 (138)
+T d2foka2          55 GILLDTLANA--MPKDKGEIRNNWEGSSDKYARMIGGWLDKL   94 (138)
+T ss_dssp             HHHHHHHHTS--CHHHHHHHHHHCCCHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHC--CHHHHHHHHHHCCCCHHHHHHHHHHHHHHH
+T ss_conf             9999898623--887899865212554789999999999861
+
+

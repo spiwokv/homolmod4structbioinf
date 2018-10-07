@@ -1,0 +1,14 @@
+46 d1s58a_ Probab=5.49    E-value=2.8e+02  Score=10.40  Aligned_columns=25  Identities=12%
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCH
+Q ss_conf             5557842111134357887678884
+Q tbn1_____        49 HWYKYKWTSPLHFIDTPDKACNFDY   73 (277)
+Q Consensus        49 ~~~~~~~~~~wHYvd~p~~~~~~~~   73 (277)
+                      .++-+-.+-||+|+|.....|+|.+
+T Consensus        59 ~~p~~g~~TPW~Y~DfN~~~~HFSP   83 (523)
+T d1s58a_          59 ITPIMGYSTPWRYLDFNALNLFFSP   83 (523)
+T ss_dssp             CSCCCCEECSCCCCCCCBHHHHSCT
+T ss_pred             CCCEEEEECCEEEEEEECEECCCCH
+T ss_conf             4413555277023530011032176
+
+

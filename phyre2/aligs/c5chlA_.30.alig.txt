@@ -1,0 +1,14 @@
+30 c5chlA_ Probab=6.76    E-value=1.9e+02  Score=11.40  Aligned_columns=11  Identities=45%
+
+Q ss_pred             HHHHHHHHHHH
+Q ss_conf             99999999999
+Q tbn1_____       253 GGIRLAMLLNN  263 (277)
+Q Consensus       253 AG~RLA~~Ln~  263 (277)
+                      ||-|++.+|++
+T Consensus        10 AGnRM~~LL~~   20 (68)
+T c5chlA_          10 AGNKIAHLLNE   20 (68)
+T ss_dssp             TTTTHHHHHHH
+T ss_pred             HHHHHHHHHHC
+T ss_conf             66899999732
+
+

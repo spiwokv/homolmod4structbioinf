@@ -1,0 +1,14 @@
+19 c2g8gA_ Probab=9.50    E-value=1.8e+02  Score=11.49  Aligned_columns=18  Identities=22%
+
+Q ss_pred             CCCCCCCCCCCCCCCCCH
+Q ss_conf             111134357887678884
+Q tbn1_____        56 TSPLHFIDTPDKACNFDY   73 (277)
+Q Consensus        56 ~~~wHYvd~p~~~~~~~~   73 (277)
+                      +-||+|+|.....|+|.+
+T Consensus        57 ~TPW~Y~DfN~~~~HFSP   74 (524)
+T c2g8gA_          57 STPWGYFDFNRFHCHFSP   74 (524)
+T ss_dssp             EEEEEEEBCCBGGGTCCH
+T ss_pred             ECCEEEEEECCCCCCCCH
+T ss_conf             487011420010032276
+
+

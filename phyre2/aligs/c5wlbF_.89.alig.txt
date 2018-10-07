@@ -1,0 +1,14 @@
+89 c5wlbF_ Probab=3.31    E-value=5e+02  Score=8.98  Aligned_columns=5  Identities=60%
+
+Q ss_pred             HHHHH
+Q ss_conf             68864
+Q tbn1_____       155 LHHVW  159 (277)
+Q Consensus       155 LH~~W  159 (277)
+                      ||++|
+T Consensus        14 lhayw   18 (29)
+T c5wlbF_          14 LHAYW   18 (29)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+T ss_conf             99999
+
+

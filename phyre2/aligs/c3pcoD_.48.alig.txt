@@ -1,0 +1,14 @@
+48 c3pcoD_ Probab=5.11    E-value=3.1e+02  Score=10.20  Aligned_columns=26  Identities=31%
+
+Q ss_pred             CCCCCCCCCCCCCCEEEEEECCCCCHH
+Q ss_conf             752135665788845998508987706
+Q tbn1_____       129 QPMHVGFTSDAGGNSIDLRWFRHKSNL  155 (277)
+Q Consensus       129 QPLH~~~~~D~GGN~i~v~~~~~~~nL  155 (277)
+                      ||||+....-..|+ +.|+.......+
+T Consensus       262 qPlHafD~dki~~~-i~vr~a~~~e~~  287 (795)
+T c3pcoD_         262 QPMHAFDKDRIEGG-IVVRMAKEGETL  287 (795)
+T ss_dssp             CCEEECCGGGCCSC-EEEEECCTTEEC
+T ss_pred             CCCCCEEHHHCCCC-EEEEECCCCCEE
+T ss_conf             32362214551886-699982898878
+
+

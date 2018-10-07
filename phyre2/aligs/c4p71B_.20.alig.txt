@@ -1,0 +1,14 @@
+20 c4p71B_ Probab=8.99    E-value=1.9e+02  Score=11.37  Aligned_columns=33  Identities=24%
+
+Q ss_pred             HHHHHHCCCCCCCCCCCCCCCCCCEEEEEECCCCCHH
+Q ss_conf             9886405234752135665788845998508987706
+Q tbn1_____       119 FLSHFMGDIHQPMHVGFTSDAGGNSIDLRWFRHKSNL  155 (277)
+Q Consensus       119 ~LvHlvGDiHQPLH~~~~~D~GGN~i~v~~~~~~~nL  155 (277)
+                      |+.+-.|   ||||+....-..|+ +.|+.......+
+T Consensus       254 yvmle~G---qPlHafD~dki~~~-i~vr~a~~~e~~  286 (791)
+T c4p71B_         254 YVMIELG---QPMHAFDLAEINGG-VRVRMAEDGEKL  286 (791)
+T ss_dssp             HHHHHHS---CCEEEEEGGGCSSS-EEEEECCTTEEE
+T ss_pred             HHHHHHC---CCCCEEEHHHCCCC-EEEEECCCCCEE
+T ss_conf             9998978---00001206763896-699970899878
+
+

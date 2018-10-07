@@ -1,0 +1,14 @@
+92 c4jhkC_ Probab=3.26    E-value=3.2e+02  Score=10.13  Aligned_columns=15  Identities=33%
+
+Q ss_pred             CCCHHHHHHCCHHHH
+Q ss_conf             754199972074643
+Q tbn1_____        33 VNGDLSALCVWPDQV   47 (277)
+Q Consensus        33 ~~~~l~~~a~WaD~i   47 (277)
+                      +-.+|.++-+|.|++
+T Consensus         1 plgsmsriknwgdev   15 (26)
+T c4jhkC_           1 PLGSMSRIKNWGDEV   15 (26)
+T ss_dssp             CTTSTTTSCCHHHHH
+T ss_pred             CCCHHHHHHHHHHHH
+T ss_conf             953178875455578
+
+

@@ -1,0 +1,14 @@
+34 c4g0rA_ Probab=6.34    E-value=1.7e+02  Score=11.69  Aligned_columns=18  Identities=17%
+
+Q ss_pred             CCCCCCCCCCCCCCCCCH
+Q ss_conf             111134357887678884
+Q tbn1_____        56 TSPLHFIDTPDKACNFDY   73 (277)
+Q Consensus        56 ~~~wHYvd~p~~~~~~~~   73 (277)
+                      +-||+|+|.....|+|.+
+T Consensus        74 ~TPWsYvDfNa~s~hFSP   91 (554)
+T c4g0rA_          74 WTPWSLVDANAWGVWFQP   91 (554)
+T ss_dssp             EEEEEECCCCSHHHHCCH
+T ss_pred             ECCEEEEEEEEEEEEECH
+T ss_conf             635047630002433557
+
+

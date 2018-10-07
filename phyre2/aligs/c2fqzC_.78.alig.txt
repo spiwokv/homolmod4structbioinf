@@ -1,0 +1,14 @@
+78 c2fqzC_ Probab=3.56    E-value=4.6e+02  Score=9.20  Aligned_columns=32  Identities=13%
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q ss_conf             89899999999999999999999999999983
+Q tbn1_____       234 LSDDYFNSRLPIVMKRVAQGGIRLAMLLNNVF  265 (277)
+Q Consensus       234 ls~~Y~~~~~~v~~~ql~~AG~RLA~~Ln~i~  265 (277)
+                      ++++++.-+..+.++|-+.||.-|--.|..||
+T Consensus        98 ~~def~~L~lSv~nrRKSRAGksfE~hle~il  129 (292)
+T c2fqzC_          98 YPTHIYDLALSNTQSRRSRAGKEFESILELLM  129 (292)
+T ss_dssp             SHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_conf             25889999999978777665678999999999
+
+

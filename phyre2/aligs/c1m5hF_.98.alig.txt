@@ -1,0 +1,14 @@
+98 c1m5hF_ Probab=3.15    E-value=5.3e+02  Score=8.82  Aligned_columns=21  Identities=29%
+
+Q ss_pred             HHHHCCCCCCCCCCCCCCCCCCEEEE
+Q ss_conf             86405234752135665788845998
+Q tbn1_____       121 SHFMGDIHQPMHVGFTSDAGGNSIDL  146 (277)
+Q Consensus       121 vHlvGDiHQPLH~~~~~D~GGN~i~v  146 (277)
+                      ++++||=+|+.+     ++||.+..+
+T Consensus       121 l~~fGDGye~~~-----e~~GR~~w~  141 (297)
+T c1m5hF_         121 LKFFADGYQKEV-----EVGGRKCWA  141 (297)
+T ss_dssp             HGGGGTTCCEEE-----EETTEEEEE
+T ss_pred             CEECCCCCCHHH-----HCCCEEEEE
+T ss_conf             010137532011-----208878999
+
+

@@ -1,0 +1,14 @@
+39 c2fhyL_ Probab=5.76    E-value=79  Score=13.58  Aligned_columns=36  Identities=11%
+
+Q ss_pred             HHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHCCCCCCC
+Q ss_conf             999999999962457744105689999999886405234752
+Q tbn1_____        90 GAIQNFTTQLSHYREGTSDRRYNMTEALLFLSHFMGDIHQPM  131 (277)
+Q Consensus        90 ~ai~~~~~~L~~~~~~~~~~~~~~a~al~~LvHlvGDiHQPL  131 (277)
+                      ..++.+...+.........-      .+||..-+|+|+||=|
+T Consensus       204 ~~~~~yi~~~~~~~~~~~~y------~~Ry~gslVaD~hR~L  239 (317)
+T c2fhyL_         204 PAVTEYIQRKKFPPDNSAPY------GARYVGSMVADVHRTL  239 (317)
+T ss_dssp             HHHHHHHHHHHSCTTSCCCC------EECCCSCHHHHHHHHH
+T ss_pred             HHHHHHHHHHHCCCCCCCCC------EEEEECHHHHHHHHHH
+T ss_conf             89999999864267667862------0346502479889988
+
+

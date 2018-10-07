@@ -1,0 +1,14 @@
+38 d2ebfx2 Probab=5.88    E-value=97  Score=13.07  Aligned_columns=10  Identities=30%
+
+Q ss_pred             HHHCCCCCCC
+Q ss_conf             6405234752
+Q tbn1_____       122 HFMGDIHQPM  131 (277)
+Q Consensus       122 HlvGDiHQPL  131 (277)
+                      ||..|+|||+
+T Consensus        69 hL~~D~~Q~~   78 (219)
+T d2ebfx2          69 DLPYDIVQQE   78 (219)
+T ss_dssp             EEEHHHHHHH
+T ss_pred             HHHHHHHHHH
+T ss_conf             2445652788
+
+

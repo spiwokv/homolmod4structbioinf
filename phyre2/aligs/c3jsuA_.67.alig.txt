@@ -1,0 +1,14 @@
+67 c3jsuA_ Probab=3.78    E-value=2.1e+02  Score=11.19  Aligned_columns=9  Identities=33%
+
+Q ss_pred             HHHHHCCCC
+Q ss_conf             886405234
+Q tbn1_____       120 LSHFMGDIH  128 (277)
+Q Consensus       120 LvHlvGDiH  128 (277)
+                      ++|.+||+|
+T Consensus       482 ~~h~igd~H  490 (545)
+T c3jsuA_         482 FIHVLGNAH  490 (545)
+T ss_dssp             EEEEEEEEE
+T ss_pred             EEEEECCCC
+T ss_conf             899922200
+
+

@@ -1,0 +1,14 @@
+65 c4bv1D_ Probab=3.93    E-value=2.3e+02  Score=10.94  Aligned_columns=8  Identities=38%
+
+Q ss_pred             HHHHHHHH
+Q ss_conf             06886420
+Q tbn1_____       154 NLHHVWDR  161 (277)
+Q Consensus       154 nLH~~WDs  161 (277)
+                      |||-+|.+
+T Consensus        98 NlHGLW~~  105 (109)
+T c4bv1D_          98 TLHGLWKT  105 (109)
+T ss_dssp             TTTEEEEE
+T ss_pred             CCCCCEEE
+T ss_conf             25640220
+
+

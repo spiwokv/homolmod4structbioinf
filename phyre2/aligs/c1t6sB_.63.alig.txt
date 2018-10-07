@@ -1,0 +1,14 @@
+63 c1t6sB_ Probab=4.09    E-value=3.9e+02  Score=9.62  Aligned_columns=31  Identities=3%
+
+Q ss_pred             HHHHHHHHHHCCHHHHHHHHHHHCCCCCCHHHH
+Q ss_conf             999999997489999999999715687541999
+Q tbn1_____         7 VMTCRIAQGLLNDEAAHAVKMLLPEYVNGDLSA   39 (277)
+Q Consensus         7 ~~Va~iA~~~L~~~~~~~i~~iL~~~~~~~l~~   39 (277)
+                      ++.|-||+++  |-++..|+.|-|...+..+..
+T Consensus        98 EtLAiIAY~Q--PiTr~eIe~iRGv~s~~~l~~  128 (162)
+T c1t6sB_          98 EVLAVVAWHQ--PVTKGEIQQIRGASPDYSIDR  128 (162)
+T ss_dssp             HHHHHHHHHC--SEEHHHHHHHHTCCCCSHHHH
+T ss_pred             HHHHHHHHCC--CCCHHHHHHHHCCCHHHHHHH
+T ss_conf             9999999567--889999998719765899999
+
+

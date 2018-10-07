@@ -1,0 +1,14 @@
+14 c3d0wD_ Probab=14.21   E-value=40  Score=15.26  Aligned_columns=34  Identities=12%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCC
+Q ss_conf             9999999999999999999999999831433467
+Q tbn1_____       239 FNSRLPIVMKRVAQGGIRLAMLLNNVFGASQQED  272 (277)
+Q Consensus       239 ~~~~~~v~~~ql~~AG~RLA~~Ln~i~~~~~~~~  272 (277)
+                      ..+..-+.+++|..++||++.+|..-+++..+++
+T Consensus        23 ~ak~~Gl~ee~i~~~A~~iGd~La~~vdP~N~Eq   56 (85)
+T c3d0wD_          23 RGKKLGLDDGKLVKSAAILGDYLAKHEEPQNGEE   56 (85)
+T ss_dssp             HHHHHHHHTTCCCCHHHHHHHHHHTCCCCCSHHH
+T ss_pred             HHHHCCCCHHHHHHHHHHHHHHHHHHCCCCCHHH
+T ss_conf             9997699989999999999999985178888677
+
+

@@ -1,0 +1,14 @@
+28 d1spia_ Probab=6.87    E-value=60  Score=14.28  Aligned_columns=36  Identities=17%
+
+Q ss_pred             HHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHCCCCCCC
+Q ss_conf             999999999962457744105689999999886405234752
+Q tbn1_____        90 GAIQNFTTQLSHYREGTSDRRYNMTEALLFLSHFMGDIHQPM  131 (277)
+Q Consensus        90 ~ai~~~~~~L~~~~~~~~~~~~~~a~al~~LvHlvGDiHQPL  131 (277)
+                      ..++.+...++........-      .+||..-+|+|+|+=|
+T Consensus       222 ~~~~~yi~~~~~~g~~~~~y------~~RY~gslVaD~HR~L  257 (333)
+T d1spia_         222 DKLKKYMDDLKEPGESQKPY------SSRYIGSLVGDFHRTL  257 (333)
+T ss_dssp             HHHHHHHHHHTSCSSSSCCC------EECCCSCHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHCCCCCCCC------CCEEEEHHHHHHHHHH
+T ss_conf             89999999976048766774------3126501278789987
+
+

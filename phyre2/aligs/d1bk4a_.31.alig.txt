@@ -1,0 +1,14 @@
+31 d1bk4a_ Probab=6.64    E-value=65  Score=14.06  Aligned_columns=36  Identities=14%
+
+Q ss_pred             HHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHCCCCCCC
+Q ss_conf             999999999962457744105689999999886405234752
+Q tbn1_____        90 GAIQNFTTQLSHYREGTSDRRYNMTEALLFLSHFMGDIHQPM  131 (277)
+Q Consensus        90 ~ai~~~~~~L~~~~~~~~~~~~~~a~al~~LvHlvGDiHQPL  131 (277)
+                      ..+..+...++........-      .+||..-+|+|+||=|
+T Consensus       198 ~~~~~yi~~~~~~~~~~k~y------~~RY~gslVaD~HR~L  233 (314)
+T d1bk4a_         198 PAVTEYIQKKKFPPDNSSPY------GARYVGSMVADVHRTL  233 (314)
+T ss_dssp             HHHHHHHHHHHSCTTCCCCC------EECCCSCHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHCCCCCCCC------EEEEEHHHHHHHHHHH
+T ss_conf             89999999987077666761------0145413579889988
+
+

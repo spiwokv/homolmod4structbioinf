@@ -1,0 +1,14 @@
+61 c3x1lE_ Probab=4.19    E-value=3.7e+02  Score=9.70  Aligned_columns=17  Identities=18%
+
+Q ss_pred             CCCCCCCCCCCCCEEEE
+Q ss_conf             52135665788845998
+Q tbn1_____       130 PMHVGFTSDAGGNSIDL  146 (277)
+Q Consensus       130 PLH~~~~~D~GGN~i~v  146 (277)
+                      |||+|.+.+-|..+..|
+T Consensus        16 PlHvG~G~~~g~vDlpI   32 (330)
+T c3x1lE_          16 PVHAGSGAELSVIDLPI   32 (330)
+T ss_dssp             CBCCBCCCCSSSSSBCB
+T ss_pred             CCEEECCCCCCCCCCCE
+T ss_conf             41120467547511634
+
+

@@ -1,0 +1,14 @@
+16 c5fugI_ Probab=9.65    E-value=1.2e+02  Score=12.58  Aligned_columns=11  Identities=45%
+
+Q ss_pred             HHHHHHHHHHH
+Q ss_conf             99999999999
+Q tbn1_____       253 GGIRLAMLLNN  263 (277)
+Q Consensus       253 AG~RLA~~Ln~  263 (277)
+                      ||-|+|.+||+
+T Consensus         5 AGnrma~Ll~e   15 (54)
+T c5fugI_           5 AGNRLSGLLEA   15 (54)
+T ss_dssp             TTTTHHHHHHH
+T ss_pred             HHHHHHHHHHH
+T ss_conf             67899998523
+
+

@@ -1,0 +1,14 @@
+47 d1nuwa_ Probab=5.28    E-value=87  Score=13.34  Aligned_columns=36  Identities=14%
+
+Q ss_pred             HHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHCCCCCCC
+Q ss_conf             999999999962457744105689999999886405234752
+Q tbn1_____        90 GAIQNFTTQLSHYREGTSDRRYNMTEALLFLSHFMGDIHQPM  131 (277)
+Q Consensus        90 ~ai~~~~~~L~~~~~~~~~~~~~~a~al~~LvHlvGDiHQPL  131 (277)
+                      ..+..+...+.........-      .+||..-+|+|+|+=|
+T Consensus       214 ~~~~~yi~~~~~~~~~~~~y------~~Ry~gslVaD~HR~L  249 (328)
+T d1nuwa_         214 PAITEYIQRKKFPPDNSAPY------GARYVGSMVADVHRTL  249 (328)
+T ss_dssp             HHHHHHHHHHHSCTTCCCCC------EECCCSCHHHHHHHHH
+T ss_pred             HHHHHHHHHHHCCCCCCCCC------EEEEEHHHHHHHHHHH
+T ss_conf             89999999986078777762------0245402579889987
+
+

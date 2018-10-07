@@ -1,0 +1,14 @@
+62 c2ykaB_ Probab=4.16    E-value=3.7e+02  Score=9.72  Aligned_columns=7  Identities=57%
+
+Q ss_pred             CCHHHHC
+Q ss_conf             0746430
+Q tbn1_____        42 VWPDQVR   48 (277)
+Q Consensus        42 ~WaD~ir   48 (277)
+                      +|+|.+|
+T Consensus        10 swadrvr   16 (26)
+T c2ykaB_          10 SWADRVR   16 (26)
+T ss_dssp             CHHHHHH
+T ss_pred             HHHHHHH
+T ss_conf             2999999
+
+

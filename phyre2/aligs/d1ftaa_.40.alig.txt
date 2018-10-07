@@ -1,0 +1,14 @@
+40 d1ftaa_ Probab=5.75    E-value=79  Score=13.57  Aligned_columns=36  Identities=11%
+
+Q ss_pred             HHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHCCCCCCC
+Q ss_conf             999999999962457744105689999999886405234752
+Q tbn1_____        90 GAIQNFTTQLSHYREGTSDRRYNMTEALLFLSHFMGDIHQPM  131 (277)
+Q Consensus        90 ~ai~~~~~~L~~~~~~~~~~~~~~a~al~~LvHlvGDiHQPL  131 (277)
+                      ..++.+...+.........-      .+||+.-+|+|+||=|
+T Consensus       205 ~~~~~yi~~~~~~g~~~~~y------~~Ry~gslVaD~HR~L  240 (319)
+T d1ftaa_         205 PAVTEYIQRKKFPPDNSAPY------GARYVGSMVADVHRTL  240 (319)
+T ss_dssp             HHHHHHHHHHHSCTTCCCCC------EECCCSSHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHCCCCCCCC------CEEEEHHHHHHHHHHH
+T ss_conf             89999999976068677763------0145402579889998
+
+

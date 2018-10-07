@@ -1,0 +1,14 @@
+22 c3h3gB_ Probab=7.92    E-value=2e+02  Score=11.32  Aligned_columns=11  Identities=45%
+
+Q ss_pred             HHHHHHCCCCC
+Q ss_conf             98864052347
+Q tbn1_____       119 FLSHFMGDIHQ  129 (277)
+Q Consensus       119 ~LvHlvGDiHQ  129 (277)
+                      ||-|+++.||.
+T Consensus        11 flhhliaeiht   21 (26)
+T c3h3gB_          11 FLHHLIAEIHT   21 (26)
+T ss_dssp             HHHHHHHHHCC
+T ss_pred             HHHHHHHHHHH
+T ss_conf             99999999977
+
+

@@ -1,0 +1,13 @@
+64 c1l1kA_ Probab=4.03    E-value=2.6e+02  Score=10.63  Aligned_columns=11  Identities=27%
+
+Q ss_pred             HHHHCCCCCCC
+Q ss_conf             86405234752
+Q tbn1_____       121 SHFMGDIHQPM  131 (277)
+Q Consensus       121 vHlvGDiHQPL  131 (277)
+                      +.-+.|+||.|
+T Consensus        10 irsisdlhqtl   20 (26)
+T c1l1kA_          10 IRSISDLHQTL   20 (26)
+T ss_pred             HHHHHHHHHHH
+T ss_conf             34299999976
+
+

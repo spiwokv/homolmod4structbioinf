@@ -1,0 +1,14 @@
+74 d1ui5a2 Probab=3.59    E-value=4.5e+02  Score=9.23  Aligned_columns=18  Identities=33%
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH
+Q ss_conf             999999999999999999
+Q tbn1_____       242 RLPIVMKRVAQGGIRLAM  259 (277)
+Q Consensus       242 ~~~v~~~ql~~AG~RLA~  259 (277)
+                      ++.+.+.=+..||.||+.
+T Consensus        15 a~~l~~DpvvRAG~RL~~   32 (124)
+T d1ui5a2          15 ARLCVQGPVLRAGLRLAT   32 (124)
+T ss_dssp             HHHHHHCHHHHHHHHHHH
+T ss_pred             HHHHHHCCHHHHHHHHHH
+T ss_conf             997421401456667642
+
+

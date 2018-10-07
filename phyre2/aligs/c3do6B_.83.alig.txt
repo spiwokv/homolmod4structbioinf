@@ -1,0 +1,14 @@
+83 c3do6B_ Probab=3.48    E-value=3.7e+02  Score=9.73  Aligned_columns=8  Identities=63%
+
+Q ss_pred             HHHHCCCC
+Q ss_conf             86405234
+Q tbn1_____       121 SHFMGDIH  128 (277)
+Q Consensus       121 vHlvGDiH  128 (277)
+                      .||.||+|
+T Consensus       113 lhlTGD~h  120 (543)
+T c3do6B_         113 LHFTGDXH  120 (543)
+T ss_dssp             TTTTSHHH
+T ss_pred             CCCCCCCH
+T ss_conf             00137602
+
+

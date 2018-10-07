@@ -1,0 +1,14 @@
+43 c3nttA_ Probab=5.63    E-value=2.8e+02  Score=10.40  Aligned_columns=18  Identities=11%
+
+Q ss_pred             CCCCCCCCCCCCCCCCCH
+Q ss_conf             111134357887678884
+Q tbn1_____        56 TSPLHFIDTPDKACNFDY   73 (277)
+Q Consensus        56 ~~~wHYvd~p~~~~~~~~   73 (277)
+                      +-||+|+|.....|+|.+
+T Consensus        59 ~TPW~Y~DfN~~~~HFSP   76 (516)
+T c3nttA_          59 STPWGYFDFNRFHSHWSP   76 (516)
+T ss_dssp             EEEEEECCCCSGGGTCCH
+T ss_pred             ECCCEEEEEECEECCCCH
+T ss_conf             288200430011032276
+
+

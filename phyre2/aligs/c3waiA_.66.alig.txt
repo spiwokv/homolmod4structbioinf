@@ -1,0 +1,14 @@
+66 c3waiA_ Probab=3.81    E-value=4.2e+02  Score=9.40  Aligned_columns=9  Identities=33%
+
+Q ss_pred             CCCHHHHHH
+Q ss_conf             973478999
+Q tbn1_____         1 WSKEGHVMT    9 (277)
+Q Consensus         1 Wg~~GH~~V    9 (277)
+                      ||+-||.|.
+T Consensus       393 wWDyGh~I~  401 (711)
+T c3waiA_         393 WWDYGHWIE  401 (711)
+T ss_dssp             CGGGHHHHH
+T ss_pred             EECCCCEEE
+T ss_conf             406732777
+
+
